@@ -1,17 +1,14 @@
 const essay = {
   slug: 'open-letter-cycling',
-
-  titleLines: [
-    'An Open Letter',
-    'to My Fellow Cyclists',
-  ],
-
-  subtitle:
-    'On injury, identity, community, and what remains after the bike is put away.',
-
-  published: 'July 2026',
-
-  readingTime: '9 min read',
+  plainTitle: 'An Open Letter to the Cycling Community',
+  titleLines: ['An Open Letter', 'to the Cycling Community'],
+  subtitle: 'Written four weeks off the bike',
+  description:
+    'A reflection on injury, identity, conflict, belonging, and the people who make cycling more than a bicycle.',
+  signature: 'Ken',
+  dateline: 'Louisville, Kentucky · August 2026',
+  closing:
+    'When that day comes for me, I know I will leave a tremendous part of myself with the bicycle. But I hope I will have learned that what mattered most was never the bicycle alone. It was the people, the friendships, and the life it carried me toward.',
 
   sections: [
     {
@@ -37,7 +34,7 @@ const essay = {
     },
 
     {
-      id: 'friendships',
+      id: 'common-language',
       paragraphs: [
         `Nearly every meaningful friendship I've formed since moving to Louisville exists because of a bicycle. Some friends race in pristine Lycra, obsessed with grams and watts. Others ride fixed gears through alleyways in cut-off shirts before ending the night over cheap beer. Some disappear into the woods every weekend. Others couldn't care less about racing and simply enjoy wandering the city on two wheels.`,
 
@@ -45,30 +42,31 @@ const essay = {
 
         `When I crashed, I didn't just stop riding. I temporarily disappeared from the place where those relationships naturally exist. Most of the time I spend with my closest friends is while we're riding. So naturally, if I'm not on my bike, I'm not with them, because they're still doing what we all love.`,
       ],
+      styles: { 1: 'pull' },
     },
 
     {
       id: 'identity',
-
-      pull: `When one activity weaves itself into that many aspects of your life, it eventually stops being an activity. It becomes part of your identity.`,
-
       paragraphs: [
         `Cycling isn't just a hobby. It shapes how I eat, how I spend weekends, the places I travel, the conversations I seek out, the technology I obsess over, and even the work I find meaningful. Some of my favorite engineering conversations have happened on long rides, somewhere between snack breaks at remote gas stations.`,
 
         `Cycling has also changed how I think about health, risk, competition, friendship, community, and politics. Somewhere along the way, the bicycle stopped being something I owned and quietly became one of the lenses through which I experienced the rest of life.`,
+
+        `When one activity weaves itself into that many aspects of your life, it eventually stops being an activity. It becomes part of your identity.`,
       ],
+      styles: { 2: 'pull' },
     },
 
     {
       id: 'conflict',
-
-      pull: `If my life is cycling, and cycling is my life—and if I'm surrounded by people who feel much the same way—then of course life spills into cycling. How could it not?`,
-
       paragraphs: [
         `For years I've watched the Louisville cycling community slog through conflict after conflict. Petty disagreements. Personality clashes. Hurt feelings. Splinter groups. People taking sides over things that often seemed trivial from the outside. Against the backdrop of dangerous roads, underbuilt cycling infrastructure, barriers to participation, and the countless challenges our community already faces, those disagreements often felt painfully small.`,
 
         `I've always tried to stay above it, or at least outside of it. Because after all... are we talking or are we riding? But I've never really understood why the drama seemed so inevitable. That is, until I was forced to watch from the sidelines and contemplate it all.`,
+
+        `If my life is cycling, and cycling is my life—and if I'm surrounded by people who feel much the same way—then of course life spills into cycling. How could it not?`,
       ],
+      styles: { 2: 'pull' },
     },
 
     {
@@ -85,48 +83,49 @@ const essay = {
     },
 
     {
-      id: 'intertwined',
+      id: 'shared-miles',
       paragraphs: [
         `The bicycle is never just the bicycle. It's the thing around which our lives become intertwined. It's why someone you've only shared a handful of rides with can feel like an old friend. Maybe it's the shared danger of traffic, potholes, loose dogs, and inattentive drivers. Maybe it's the mutual suffering. Maybe it's the post-ride ice cream or beer. Whatever it is, there's something difficult to explain to people who haven't experienced it.`,
 
-        `When you've shared enough miles together, you've usually shared everything else too:\n\nWeddings.\nDivorces.\nChildren.\nDeaths.\nIllness.\nCareer changes.\nTraumas.\nFailures.\nVictories.\nLife.`,
+        `When you've shared enough miles together, you've usually shared everything else too:`,
+
+        `Weddings.\nDivorces.\nChildren.\nDeaths.\nIllness.\nCareer changes.\nTraumas.\nFailures.\nVictories.\nLife.`,
 
         `So no, it no longer surprises me that cyclists occasionally fight over things that seem petty to everyone else. What once looked like melodrama now looks more like the inevitable consequence of caring deeply about something bound up with our identities, our happiness, and our sense of belonging.`,
       ],
+      styles: { 2: 'stacked' },
     },
 
     {
       id: 'letter',
-
-      kicker: 'To my fellow cyclists',
-
-      pull: `We're not arguing about bicycles.`,
-
       paragraphs: [
+        `And so, to my fellow cyclists:`,
+
+        `We're not arguing about bicycles.`,
+
         `We're arguing about the things we've attached to them: our identities, our friendships, our pride, our grief, our aspirations, and our need for belonging.`,
 
         `That's why the disagreements sometimes feel disproportionate. That's why group rides fracture, friendships strain, clubs splinter, and social media erupts over things that seem laughably insignificant to outsiders. To outsiders, they're just bikes. To us, they're the axis around which so much of life quietly revolves.`,
 
-        `Recognizing that doesn't excuse poor behavior. Ego is still ego. Cruelty is still cruelty. But instead of asking, "Why are cyclists so dramatic?" perhaps we should ask, "What is this disagreement really protecting?" Rarely is it only a ride name, race result, or route. More often, it is a person trying to protect some part of themselves they have unknowingly wrapped around this beautiful, absurd sport.`,
+        `Recognizing that doesn't excuse poor behavior. Ego is still ego. Cruelty is still cruelty. But instead of asking, “Why are cyclists so dramatic?” perhaps we should ask, “What is this disagreement really protecting?” Rarely is it only a ride name, race result, or route. More often, it is a person trying to protect some part of themselves they have unknowingly wrapped around this beautiful, absurd sport.`,
 
         `Maybe understanding that would make us a little slower to judge one another and a little quicker to forgive. The person frustrating us has probably endured the same close calls with traffic, the same freezing winter rides, the same impossible climbs, and the same inexplicable joy of rolling home completely exhausted and somehow more alive than when they left. Very few people outside this community will ever fully understand that.`,
 
-        `The bicycle doesn't merely carry us down the road. It carries pieces of who we are. So let's stop pretending that what happens on the bike can be isolated from everything we carry onto it. When conflict comes, we should remember what brought us together before deciding what ought to divide us.`,
+        `The bicycle doesn't merely carry us down the road. It carries pieces of who we are. So, let's stop pretending that what happens on the bike can be isolated from everything we carry onto it. When conflict comes, we should remember what brought us together before deciding what ought to divide us.`,
       ],
+      styles: { 1: 'pull' },
     },
 
     {
-      id: 'ending',
-
-      pull: `Someday, whether through injury, age, or circumstance, every cyclist rides home for the last time.`,
-
+      id: 'foundation',
       paragraphs: [
         `This injury has forced me to ask myself a difficult question. Not whether I want to come back—I do, without hesitation—but whether I've allowed too much of my life to rest on one remarkably fragile piece of anatomy.`,
 
         `Cycling has given me far more than it has ever taken away. Maybe the lesson is not to love it less, but to build a life with more than one foundation.`,
 
-        `When that day comes for me, I know I will leave a tremendous part of myself with the bicycle. But I hope I will have learned that what mattered most was never the bicycle alone. It was the people, the friendships, and the life it carried me toward.`,
+        `Because someday, whether through injury, age, or circumstance, every cyclist rides home for the last time.`,
       ],
+      styles: { 2: 'pull' },
     },
   ],
 };
