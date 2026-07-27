@@ -40,19 +40,19 @@ const essay = {
       paragraphs: [
         `For years I've watched the Louisville cycling community slog through conflict after conflict. Petty disagreements. Personality clashes. Hurt feelings. Splinter groups. People taking sides over things that often seemed trivial from the outside. Against the backdrop of dangerous roads, underbuilt cycling infrastructure, barriers to participation, and the countless challenges our community already faces, those disagreements often felt painfully small.`,
         `I've always tried to stay above it, or at least outside of it. Because after all... are we talking or are we riding? But I've never really understood why the drama seemed so inevitable. That is, until I was forced to watch from the sidelines and contemplate it all.`,
-        `If my life is cycling, and cycling is my life—and I'm surrounded by many people who feel much the same way—then of course life spills into cycling. How could it not?`,
-        `We often get into cycling because it feels like an escape. We focus on the breathing, the pedal stroke, the route ahead, the suffering, the scenery. For a little while, the rest of life fades into the background.`,
+        `If my life is cycling, and cycling is my life—and I'm surrounded by many people who feel much the same way—then of course life spills into cycling. **How could it not?**`
       ],
     },
     {
       id: 'home',
       paragraphs: [
+        `We often get into cycling because it feels like an escape. We focus on the breathing, the pedal stroke, the route ahead, the suffering, the scenery. For a little while, the rest of life fades into the background.`,
         `But eventually the escape becomes home. And once something becomes home, it accumulates everything else that makes us who we are.`,
         `Our relationships.\nOur careers.\nOur politics.\nOur insecurities.\nOur ambitions.\nOur grief.\nOur ego.\nOur generosity.`,
         `Cycling itself is a culture, complete with its own language, fashion, rituals, heroes, unwritten rules, and social hierarchy. Even within it are countless smaller tribes: the weight weenies, the commuters, the couriers, the gravel riders, the fixie counterculture, the endurance addicts, the sprinters, the mountain bikers, the dentists.`,
         `From the outside it probably looks absurd. From the inside, it feels like belonging. And I think that's what makes it so powerful, and perhaps that's also what makes it so volatile.`,
       ],
-      styles: { 0: 'pull', 1: 'stacked' },
+      styles: {0:'stacked', 1: 'pull', 2: 'stacked' },
     },
     {
       id: 'shared-miles',
