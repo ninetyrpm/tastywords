@@ -31,8 +31,7 @@ const essay = {
     {
       id: 'identity',
       paragraphs: [
-        `Cycling isn't just a hobby. It influences:`,
-        `How I eat. How I spend weekends. The clothes I wear. The cars I notice. The cities I enjoy. The technology and data I geek out over. Even my work. Some of my favorite engineering conversations have happened on long rides, somewhere between snack breaks at remote gas stations. It has shaped my relationship with my wife, my friends, my health, food, medicine, risk, competition, politics, and community.`,
+        `Cycling isn't just a hobby. It influences: How I eat. How I spend weekends. The clothes I wear. The cars I notice. The cities I enjoy. The technology and data I geek out over. Even my work. Some of my favorite engineering conversations have happened on long rides, somewhere between snack breaks at remote gas stations. Riding bikes has shaped my relationship with my wife, my friends, my health, food, medicine, risk, competition, politics, and community.`,
         `When one activity quietly weaves itself into that many aspects of your life, it eventually stops being an activity. It becomes part of your identity. It is this realization that changed how I understand the cycling community itself.`,
       ],
     },
