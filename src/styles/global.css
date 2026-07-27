@@ -104,7 +104,7 @@ h1 {
 
 section p {
   margin: 0 0 1.45rem;
-  font-size: clamp(1.18rem, 1.8vw, 1.36rem);
+  font-size: clamp(1.08rem, 1.5vw, 1.24rem);
   line-height: 1.72;
 }
 
