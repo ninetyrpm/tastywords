@@ -62,7 +62,7 @@ const essay = {
     `But eventually the escape becomes home. And once something becomes home, it accumulates everything else that makes us who we are:`,
     `We're not arguing about bicycles.`
   ],
-  closing: 'Without the people who shared the road, the bikes are just bikes.',
+  closing: 'Without the people who share the road, the bikes are just bikes.',
   signature: 'Ken',
   dateline: 'Louisville, Kentucky · August 2026'
 };
