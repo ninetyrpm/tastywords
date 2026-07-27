@@ -40,7 +40,7 @@ const essay = {
       paragraphs: [
         `For years I've watched the Louisville cycling community slog through conflict after conflict. Petty disagreements. Personality clashes. Hurt feelings. Splinter groups. People taking sides over things that often seemed trivial from the outside. Against the backdrop of dangerous roads, underbuilt cycling infrastructure, barriers to participation, and the countless challenges our community already faces, those disagreements often felt painfully small.`,
         `I've always tried to stay above it, or at least outside of it. Because after all... are we talking or are we riding? But I've never really understood why the drama seemed so inevitable. That is, until I was forced to watch from the sidelines and contemplate it all.`,
-        `If my life is cycling, and cycling is my life—and I'm surrounded by many people who feel much the same way—then of course life spills into cycling. **How could it not?**`
+        `If my life is cycling, and cycling is my life—and I'm surrounded by many people who feel much the same way—then of course life spills into cycling. <strong>How could it not?</strong>**`
       ],
     },
     {
