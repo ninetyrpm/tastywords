@@ -1,51 +1,51 @@
 # tastywords
 
-A minimalist publishing framework for cohesive reflections on reality.
+A small, reusable React/Vite publishing platform for cohesive essays.
 
-The repository currently publishes one standalone essay: **An Open Letter to the Cycling Community**. The public page contains no site branding, archive, navigation, or links to future essays. The reusable structure lives behind the page so additional writing can be added later without changing the reading experience of this piece.
+## Current public structure
 
-## Structure
+- `/` — a deliberately reserved site root. It does **not** link to the essay.
+- `/open-letter-cycling` — *An Open Letter to the Cycling Community*.
+- all unknown routes — a quiet 404 page.
 
-```text
-src/
-├── components/                 Shared essay presentation components
-├── essays/
-│   └── open-letter-cycling/    The only published essay
-├── lib/                        Reading-time utilities
-├── styles/                     Shared visual system
-├── App.jsx                     Selects the currently published page
-└── main.jsx                    Application entry point
-```
+The essay has no site navigation, archive links, related-post links, or homepage link. It stands entirely on its own.
 
-## Local development
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Production build
+Create a production build with:
 
 ```bash
 npm run build
+npm run preview
 ```
 
 ## Deploy to Vercel
 
-1. Push the repository to GitHub as `tastywords`.
-2. Import it into Vercel.
-3. Use `npm run build` as the build command.
-4. Use `dist` as the output directory.
+1. Push this directory to the `tastywords` GitHub repository.
+2. Import the repository into Vercel.
+3. Vercel should detect Vite automatically.
+4. Build command: `npm run build`
+5. Output directory: `dist`
 
-Vercel should detect the Vite configuration automatically.
+`vercel.json` rewrites publication URLs to the React application so direct visits and refreshes work correctly.
 
-## Publishing another essay later
+## Adding another essay later
 
-Create a new folder under `src/essays/` and compose it through the shared `EssayLayout` components. Do not add it to the current page unless it is intentionally ready to publish. There is no homepage, index, archive, or cross-linking in this version.
+1. Add one file under `src/content/essays/` using the same data structure as `open-letter-cycling.jsx`.
+2. Import it in `src/App.jsx`.
+3. Add a dedicated route for its permanent slug.
 
-## Design notes
+Shared presentation lives in `src/components/`, `src/layouts/`, and `src/styles/global.css`. Essay copy and metadata stay isolated under `src/content/essays/`.
 
-- Reading time is calculated from the essay copy at 220 words per minute.
-- The fixed remaining-time indicator responds to scroll progress.
-- Section markers use inline SVG bicycle wheels; no image assets are required.
-- The page respects reduced-motion preferences.
+## Editorial conventions
+
+- Keep permanent publication URLs independent of the homepage.
+- Avoid dates in slugs so essays remain durable.
+- Keep essay pages free of global navigation unless that editorial choice changes later.
+- Reading time is calculated automatically at 220 words per minute.
+- Use `styles` within a section to mark individual paragraphs as `pull` or `stacked`.

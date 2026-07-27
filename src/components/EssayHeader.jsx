@@ -1,10 +1,15 @@
-export default function EssayHeader({ title, subtitle, readingMinutes }) {
+import ScrollCue from './ScrollCue';
+
+export default function EssayHeader({ essay, readingMinutes, heroRef }) {
   return (
-    <header className="hero">
-      <p className="eyebrow">A personal reflection</p>
-      <h1>{title}</h1>
-      <p className="subtitle">{subtitle}</p>
-      <p className="meta">{readingMinutes} minute read</p>
+    <header className="hero" ref={heroRef}>
+      <div className="hero-copy">
+        <p className="eyebrow">Open Letter</p>
+        <h1>{essay.title}</h1>
+        <p className="subtitle">{essay.subtitle}</p>
+        <p className="meta">{readingMinutes} min read</p>
+      </div>
+      <ScrollCue />
     </header>
   );
 }
