@@ -38,7 +38,7 @@ const essay = {
     {
       id: 'conflict',
       paragraphs: [
-        `For years I've watched the Louisville cycling community cycle through conflict after conflict. Petty disagreements. Personality clashes. Hurt feelings. Splinter groups. People taking sides over things that often seemed trivial from the outside.`,
+        `For years I've watched the Louisville cycling community slog through conflict after conflict. Petty disagreements. Personality clashes. Hurt feelings. Splinter groups. People taking sides over things that often seemed trivial from the outside.`,
         `I've always tried to stay above it, or at least outside of it. Because after all... are we talking or are we riding? But I've never really understood why the drama seemed so inevitable. That is, until I was forced to watch from the sidelines and contemplate it all.`,
         `If my life is cycling, and cycling is my life—and I'm surrounded by many people who feel much the same way—then of course life spills into cycling. How could it not?`,
         `We often get into cycling because it feels like an escape. We focus on the breathing, the pedal stroke, the route ahead, the suffering, the scenery. For a little while, the rest of life fades into the background.`,
