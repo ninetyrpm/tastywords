@@ -134,7 +134,7 @@ Life.`,
 
       `Because someday, whether through injury, age, or circumstance, every cyclist rides home for the last time.`,
 
-      `When that day comes for me, I know I will leave a tremendous part of myself with the bicycle. But I hope I will have learned that what mattered most was never the bicycle alone. It was the people, the friendships, and the life it carried me toward.`,
+      `When that day comes for me, I know I will leave a tremendous part of myself behind. But I hope I will have learned that what mattered most was never the bicycle alone. It was the people, the friendships, and the life it carried me toward.`,
     ],
     styles: {
       2: 'pull',
