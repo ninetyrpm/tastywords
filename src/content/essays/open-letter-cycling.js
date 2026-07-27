@@ -52,7 +52,7 @@ const essay = {
         `Cycling itself is a culture, complete with its own language, fashion, rituals, heroes, unwritten rules, and social hierarchy. Even within it are countless smaller tribes: the weight weenies, the commuters, the couriers, the gravel riders, the fixie counterculture, the endurance addicts, the sprinters, the mountain bikers, the dentists.`,
         `From the outside it probably looks absurd. From the inside, it feels like belonging. And I think that's what makes it so powerful, and perhaps that's also what makes it so volatile.`,
       ],
-      styles: {0:'stacked', 1: 'pull', 2: 'stacked' },
+      styles: {1: 'pull', 2: 'stacked' },
     },
     {
       id: 'shared-miles',
