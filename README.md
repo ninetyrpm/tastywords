@@ -1,51 +1,60 @@
 # tastywords
 
-A small, reusable React/Vite publishing platform for cohesive essays.
+A minimal React/Vite publishing platform for occasional long-form essays.
 
-## Current public structure
+## Structure
 
-- `/` — a deliberately reserved site root. It does **not** link to the essay.
-- `/open-letter-cycling` — *An Open Letter to the Cycling Community*.
-- all unknown routes — a quiet 404 page.
+Each essay exists in exactly one content file:
 
-The essay has no site navigation, archive links, related-post links, or homepage link. It stands entirely on its own.
+```text
+src/content/essays/<slug>.js
+```
 
-## Run locally
+The shared `EssayPage` reads the URL slug, looks up the matching essay in the registry, and passes it to the reusable essay layout. There is no separate page component or duplicated copy for each publication.
+
+```text
+src/
+├── app/
+│   └── App.jsx                  # Route definitions
+├── components/                  # Reusable presentation pieces
+├── content/
+│   └── essays/
+│       ├── index.js             # Essay registry
+│       └── open-letter-cycling.js
+├── hooks/                       # Reading progress and metadata
+├── layouts/
+│   └── EssayLayout.jsx          # Shared essay composition
+├── pages/
+│   ├── EssayPage.jsx            # Generic slug-based renderer
+│   ├── HomePage.jsx             # Reserved root page
+│   └── NotFoundPage.jsx
+├── styles/
+│   └── global.css
+├── utils/
+│   └── readingTime.js
+└── main.jsx
+```
+
+## Add another essay
+
+1. Copy `src/content/essays/open-letter-cycling.js` to a new file.
+2. Change its `slug`, metadata, and content.
+3. Import it and add it to the `essays` array in `src/content/essays/index.js`.
+
+The publication will then be available automatically at `/<slug>`.
+
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Create a production build with:
+## Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Deploy to Vercel
-
-1. Push this directory to the `tastywords` GitHub repository.
-2. Import the repository into Vercel.
-3. Vercel should detect Vite automatically.
-4. Build command: `npm run build`
-5. Output directory: `dist`
-
-`vercel.json` rewrites publication URLs to the React application so direct visits and refreshes work correctly.
-
-## Adding another essay later
-
-1. Add one file under `src/content/essays/` using the same data structure as `open-letter-cycling.jsx`.
-2. Import it in `src/App.jsx`.
-3. Add a dedicated route for its permanent slug.
-
-Shared presentation lives in `src/components/`, `src/layouts/`, and `src/styles/global.css`. Essay copy and metadata stay isolated under `src/content/essays/`.
-
-## Editorial conventions
-
-- Keep permanent publication URLs independent of the homepage.
-- Avoid dates in slugs so essays remain durable.
-- Keep essay pages free of global navigation unless that editorial choice changes later.
-- Reading time is calculated automatically at 220 words per minute.
-- Use `styles` within a section to mark individual paragraphs as `pull` or `stacked`.
+`vercel.json` rewrites direct requests to Vite's entry point, allowing essay URLs to load correctly when opened or refreshed directly.
