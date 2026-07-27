@@ -46,7 +46,7 @@ const essay = {
           If my life is cycling, and cycling is my life—and I'm surrounded by many
           people who feel much the same way—then of course life spills into cycling.{' '}
           <strong>How could it not?</strong>
-        </>
+        </>,
       ],
     },
     {
