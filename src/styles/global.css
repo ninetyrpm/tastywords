@@ -34,13 +34,34 @@ body::before {
 main { width: 100%; }
 
 .hero {
-  min-height: 92vh;
+  height: 100svh;
+  min-height: 100svh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 4rem 1.5rem 5rem;
+
+  position: relative;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: .45;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6rem;
+
+  font-family: Inter, sans-serif;
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .eyebrow,
@@ -99,7 +120,7 @@ h1 {
 .letter {
   width: min(100% - 2.5rem, 720px);
   margin: 0 auto;
-  padding: 0 0 12rem;
+  padding-bottom: 12rem;
 }
 
 section p {
