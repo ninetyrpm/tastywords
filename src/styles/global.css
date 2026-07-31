@@ -196,6 +196,27 @@ section p {
   display: block;
 }
 
+
+/* Optional structure for long-form Markdown drafts */
+
+.section-title {
+  margin: 0 0 2.2rem;
+  font-size: clamp(1.05rem, 1.8vw, 1.28rem);
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.editorial-note {
+  margin: 2.2rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 2px solid var(--accent);
+  background: rgba(0, 0, 0, 0.025);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
 /* Section marker */
 
 .wheel-marker {

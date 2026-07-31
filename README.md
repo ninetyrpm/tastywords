@@ -89,3 +89,28 @@ npm run preview
 ```
 
 `vercel.json` rewrites direct requests to Vite's entry point, allowing essay URLs to load correctly when opened or refreshed directly.
+
+
+## Draft previews
+
+Mark an unfinished essay in front matter:
+
+```yaml
+draft: true
+```
+
+Drafts are automatically available during local development (`npm run dev`) and excluded from production builds. To include them in a Vercel Preview deployment, create a Preview-scoped environment variable:
+
+```text
+VITE_INCLUDE_DRAFTS=true
+```
+
+Recommended flow:
+
+1. Create a draft branch.
+2. Add or revise the Markdown file with `draft: true`.
+3. Push the branch to create a Vercel Preview URL.
+4. Review the direct essay route, such as `/the-guest`.
+5. When ready, remove `draft: true` or change it to `false`, then merge into `main`.
+
+The parser also recognizes level-three Markdown headings as section titles and renders `PERSONAL ANECDOTE NEEDED` blockquotes as editorial notes rather than pull quotes.

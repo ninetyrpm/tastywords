@@ -8,6 +8,9 @@ function parseScalar(value) {
     return trimmed.slice(1, -1);
   }
 
+  if (trimmed === 'true') return true;
+  if (trimmed === 'false') return false;
+
   return trimmed;
 }
 
@@ -24,9 +27,7 @@ function parseFrontMatter(source) {
   let activeListKey = null;
 
   for (const line of lines) {
-    if (!line.trim() || line.trimStart().startsWith('#')) {
-      continue;
-    }
+    if (!line.trim() || line.trimStart().startsWith('#')) continue;
 
     const listItem = line.match(/^\s+-\s+(.+)$/);
     if (listItem && activeListKey) {
@@ -35,9 +36,7 @@ function parseFrontMatter(source) {
     }
 
     const property = line.match(/^([A-Za-z][\w-]*):\s*(.*)$/);
-    if (!property) {
-      throw new Error(`Invalid front matter line: ${line}`);
-    }
+    if (!property) throw new Error(`Invalid front matter line: ${line}`);
 
     const [, key, rawValue] = property;
     if (rawValue.trim()) {
@@ -49,10 +48,7 @@ function parseFrontMatter(source) {
     }
   }
 
-  return {
-    data,
-    body: normalized.slice(match[0].length).trim(),
-  };
+  return { data, body: normalized.slice(match[0].length).trim() };
 }
 
 function parseBlock(block) {
@@ -61,15 +57,24 @@ function parseBlock(block) {
     .map((line) => line.trim())
     .filter(Boolean);
 
+  const heading = lines.length === 1 && lines[0].match(/^###\s+(.+)$/);
+  if (heading) return { text: heading[1].trim(), style: 'section-title' };
+
   const isPull = lines.every((line) => line.startsWith('>'));
   if (isPull) {
-    return {
-      text: lines
-        .map((line) => line.replace(/^>\s?/, ''))
-        .join(' ')
-        .trim(),
-      style: 'pull',
-    };
+    const text = lines
+      .map((line) => line.replace(/^>\s?/, ''))
+      .join(' ')
+      .trim();
+
+    if (/^\*\*PERSONAL ANECDOTE NEEDED:/i.test(text)) {
+      return {
+        text: text.replace(/^\*\*(PERSONAL ANECDOTE NEEDED:)\**/i, '$1'),
+        style: 'editorial-note',
+      };
+    }
+
+    return { text, style: 'pull' };
   }
 
   const isStacked = lines.every((line) => /^[-*]\s+/.test(line));
@@ -80,10 +85,7 @@ function parseBlock(block) {
     };
   }
 
-  return {
-    text: lines.join(' '),
-    style: undefined,
-  };
+  return { text: lines.join(' '), style: undefined };
 }
 
 function parseSection(sectionSource, sectionIndex) {
@@ -96,9 +98,7 @@ function parseSection(sectionSource, sectionIndex) {
 
   const styles = {};
   blocks.forEach((block, paragraphIndex) => {
-    if (block.style) {
-      styles[paragraphIndex] = block.style;
-    }
+    if (block.style) styles[paragraphIndex] = block.style;
   });
 
   return {
@@ -128,8 +128,5 @@ export function parseEssayMarkdown(source, filename = 'essay.md') {
     throw new Error(`${filename} does not contain any essay content.`);
   }
 
-  return {
-    ...data,
-    sections,
-  };
+  return { ...data, sections };
 }

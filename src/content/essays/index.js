@@ -6,8 +6,15 @@ const essayFiles = import.meta.glob('./*.md', {
   import: 'default',
 });
 
-export const essays = Object.entries(essayFiles).map(([filename, source]) =>
+const allEssays = Object.entries(essayFiles).map(([filename, source]) =>
   parseEssayMarkdown(source, filename),
+);
+
+const includeDrafts =
+  import.meta.env.DEV || import.meta.env.VITE_INCLUDE_DRAFTS === 'true';
+
+export const essays = allEssays.filter(
+  (essay) => includeDrafts || essay.draft !== true,
 );
 
 export function getEssayBySlug(slug) {
