@@ -7,7 +7,6 @@ subtitle: On Belonging Without Possession
 eyebrow: Draft Essay
 signature: Ken
 dateline: Louisville, Kentucky · Draft
-draft: true
 ---
 
 ### I. The Open Category

@@ -53,7 +53,8 @@ src/
 │   └── essays/
 │       ├── index.js             # Automatically loads every .md essay
 │       ├── parseEssay.js        # Converts Markdown to the existing essay schema
-│       └── open-letter-cycling.md
+│       ├── open-letter-cycling.md
+│       └── the-guest.md
 ├── hooks/
 ├── layouts/
 │   └── EssayLayout.jsx
@@ -90,27 +91,16 @@ npm run preview
 
 `vercel.json` rewrites direct requests to Vite's entry point, allowing essay URLs to load correctly when opened or refreshed directly.
 
+## Provisional publishing
 
-## Draft previews
+Every Markdown file in `src/content/essays` is included in production and receives a direct route based on its `slug`.
 
-Mark an unfinished essay in front matter:
-
-```yaml
-draft: true
-```
-
-Drafts are automatically available during local development (`npm run dev`) and excluded from production builds. To include them in a Vercel Preview deployment, create a Preview-scoped environment variable:
+For an unfinished essay, use an unlisted slug and avoid linking it from the homepage or social profiles. For example, `the-guest.md` is available directly at:
 
 ```text
-VITE_INCLUDE_DRAFTS=true
+/the-guest
 ```
 
-Recommended flow:
+The current homepage remains reserved and does not enumerate essays, so a provisional essay is reachable only by someone who knows or receives its exact URL. This is unlisted rather than access-controlled: anyone with the URL can open it.
 
-1. Create a draft branch.
-2. Add or revise the Markdown file with `draft: true`.
-3. Push the branch to create a Vercel Preview URL.
-4. Review the direct essay route, such as `/the-guest`.
-5. When ready, remove `draft: true` or change it to `false`, then merge into `main`.
-
-The parser also recognizes level-three Markdown headings as section titles and renders `PERSONAL ANECDOTE NEEDED` blockquotes as editorial notes rather than pull quotes.
+Level-three Markdown headings render as section titles. `PERSONAL ANECDOTE NEEDED` blockquotes render as editorial notes rather than pull quotes.
