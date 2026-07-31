@@ -9,7 +9,10 @@ export default function EssayPage() {
 
   useDocumentMetadata({
     title: essay ? `${essay.plainTitle} — tastywords` : 'Page not found — tastywords',
-    description: essay?.description ?? 'The requested page could not be found.',
+    description:
+      essay?.description ??
+      essay?.subtitle ??
+      'The requested page could not be found.',
   });
 
   if (!essay) {

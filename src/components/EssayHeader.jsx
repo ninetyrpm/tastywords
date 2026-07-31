@@ -4,7 +4,7 @@ export default function EssayHeader({ essay, readingMinutes, heroRef }) {
   return (
     <header className="hero" ref={heroRef}>
       <div className="hero-copy">
-        <p className="eyebrow">Open Letter</p>
+        <p className="eyebrow">{essay.eyebrow ?? 'Essay'}</p>
         <h1>
           {essay.titleLines.map((line, index) => (
             <span key={line}>

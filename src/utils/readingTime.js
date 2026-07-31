@@ -2,12 +2,10 @@ const WORDS_PER_MINUTE = 220;
 
 export function getEssayText(essay) {
   const body = essay.sections.flatMap((section) => section.paragraphs);
-  return [
-    essay.plainTitle,
-    essay.subtitle,
-    ...body,
-    essay.closing,
-  ].join(' ');
+
+  return [essay.plainTitle, essay.subtitle, ...body, essay.closing]
+    .filter(Boolean)
+    .join(' ');
 }
 
 export function getReadingMinutes(essay) {

@@ -2,32 +2,62 @@
 
 A minimal React/Vite publishing platform for occasional long-form essays.
 
-## Structure
+## Writing workflow
 
-Each essay exists in exactly one content file:
+Essays are written as Markdown files in:
 
 ```text
-src/content/essays/<slug>.js
+src/content/essays/<slug>.md
 ```
 
-The shared `EssayPage` reads the URL slug, looks up the matching essay in the registry, and passes it to the reusable essay layout. There is no separate page component or duplicated copy for each publication.
+The site discovers every Markdown essay automatically, parses its metadata and body, calculates reading time from the finished text, and renders it through the existing React components. No essay-specific JavaScript or registry edits are required.
+
+### Essay template
+
+```md
+---
+slug: example-essay
+plainTitle: Example Essay
+titleLines:
+  - Example
+  - Essay
+subtitle: A brief subtitle for the title screen.
+eyebrow: Essay
+signature: Ken
+dateline: Louisville, Kentucky · August 2026
+---
+
+Ordinary paragraphs are written normally.
+
+> A blockquote becomes a pull quote.
+
+- A Markdown list
+- becomes the existing
+- stacked treatment.
+
+---
+
+Three hyphens on their own line create the existing section break and wheel marker.
+```
+
+The front matter supports the same fields as the previous JavaScript essay object. `slug`, `plainTitle`, `titleLines`, and `subtitle` are required. Optional fields such as `signature`, `dateline`, `description`, or `closing` can still be included when needed.
+
+## Structure
 
 ```text
 src/
 ├── app/
-│   └── App.jsx                  # Route definitions
-├── components/                  # Reusable presentation pieces
+│   └── App.jsx
+├── components/
 ├── content/
 │   └── essays/
-│       ├── index.js             # Essay registry
-│       └── open-letter-cycling.js
-├── hooks/                       # Reading progress and metadata
+│       ├── index.js             # Automatically loads every .md essay
+│       ├── parseEssay.js        # Converts Markdown to the existing essay schema
+│       └── open-letter-cycling.md
+├── hooks/
 ├── layouts/
-│   └── EssayLayout.jsx          # Shared essay composition
+│   └── EssayLayout.jsx
 ├── pages/
-│   ├── EssayPage.jsx            # Generic slug-based renderer
-│   ├── HomePage.jsx             # Reserved root page
-│   └── NotFoundPage.jsx
 ├── styles/
 │   └── global.css
 ├── utils/
@@ -37,11 +67,12 @@ src/
 
 ## Add another essay
 
-1. Copy `src/content/essays/open-letter-cycling.js` to a new file.
-2. Change its `slug`, metadata, and content.
-3. Import it and add it to the `essays` array in `src/content/essays/index.js`.
+1. Create a new `.md` file in `src/content/essays`.
+2. Add the front matter shown above.
+3. Write the essay using ordinary Markdown.
+4. Commit and push.
 
-The publication will then be available automatically at `/<slug>`.
+The publication will automatically be available at `/<slug>` after Vercel deploys the commit.
 
 ## Development
 
