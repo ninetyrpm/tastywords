@@ -14,7 +14,7 @@ function parseScalar(value) {
   return trimmed;
 }
 
-function parseFrontMatter(source) {
+export function parseEssayDocument(source) {
   const normalized = source.replace(/\r\n?/g, '\n');
   const match = normalized.match(/^---\n([\s\S]*?)\n---(?:\n|$)/);
 
@@ -109,7 +109,7 @@ function parseSection(sectionSource, sectionIndex) {
 }
 
 export function parseEssayMarkdown(source, filename = 'essay.md') {
-  const { data, body } = parseFrontMatter(source);
+  const { data, body } = parseEssayDocument(source);
   const requiredFields = ['slug', 'plainTitle', 'titleLines', 'subtitle'];
 
   for (const field of requiredFields) {

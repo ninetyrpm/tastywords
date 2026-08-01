@@ -6,10 +6,19 @@ const essayFiles = import.meta.glob('./*.md', {
   import: 'default',
 });
 
-export const essays = Object.entries(essayFiles).map(([filename, source]) =>
-  parseEssayMarkdown(source, filename),
+export const essaySources = Object.fromEntries(
+  Object.entries(essayFiles).map(([filename, source]) => {
+    const essay = parseEssayMarkdown(source, filename);
+    return [essay.slug, { filename, source, essay }];
+  }),
 );
 
+export const essays = Object.values(essaySources).map(({ essay }) => essay);
+
 export function getEssayBySlug(slug) {
-  return essays.find((essay) => essay.slug === slug);
+  return essaySources[slug]?.essay;
+}
+
+export function getEssaySourceBySlug(slug) {
+  return essaySources[slug]?.source;
 }

@@ -104,3 +104,40 @@ For an unfinished essay, use an unlisted slug and avoid linking it from the home
 The current homepage remains reserved and does not enumerate essays, so a provisional essay is reachable only by someone who knows or receives its exact URL. This is unlisted rather than access-controlled: anyone with the URL can open it.
 
 Level-three Markdown headings render as section titles. `PERSONAL ANECDOTE NEEDED` blockquotes render as editorial notes rather than pull quotes.
+
+## Browser writing portal
+
+Open `/write` to draft and format essays directly in the browser. The portal provides:
+
+- separate title and metadata fields;
+- a Markdown editor with browser-local autosave;
+- a live preview using the same essay components and CSS as the published site;
+- a full-page preview;
+- loading and updating existing essays;
+- Markdown download as a local backup;
+- direct publication to the production branch.
+
+The editor itself is reachable by URL, but publishing is protected by a server-side password. No GitHub credential is exposed to the browser.
+
+### Configure direct publishing in Vercel
+
+Add these environment variables to the Vercel project and apply them to **Production**:
+
+```text
+WRITER_PASSWORD=<a long private password>
+GITHUB_TOKEN=<a fine-grained GitHub personal access token>
+GITHUB_REPOSITORY=<owner/repository>
+GITHUB_BRANCH=main
+```
+
+The fine-grained GitHub token only needs **Contents: Read and write** permission for the Tastywords repository. After adding the variables, redeploy once.
+
+Publishing from `/write` creates or updates:
+
+```text
+src/content/essays/<slug>.md
+```
+
+The resulting commit to `main` triggers the normal Vercel production deployment. The new essay may take a minute or two to become available after the portal reports a successful commit.
+
+The portal is a lightweight single-author tool, not a multi-user CMS. Anyone can view the `/write` interface if they know the route, but only someone with `WRITER_PASSWORD` can commit. For stronger access control, protect `/write` through Vercel Deployment Protection or an external authentication layer.
