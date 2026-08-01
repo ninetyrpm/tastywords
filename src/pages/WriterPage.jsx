@@ -96,7 +96,26 @@ export default function WriterPage() {
   }, [form]);
 
   const source = useMemo(() => buildSource(form), [form]);
+
+  const previewSource = useMemo(() => buildSource({
+    ...form,
+    slug: form.slug.trim() || 'untitled-draft',
+    plainTitle: form.plainTitle.trim() || 'Untitled',
+    titleLines:
+      form.titleLines.trim() || form.plainTitle.trim() || 'Untitled',
+    subtitle: form.subtitle.trim() || 'Draft in progress',
+    body: form.body.trim() || 'Begin writing…',
+  }), [form]);
+
   const preview = useMemo(() => {
+    try {
+      return { essay: parseEssayMarkdown(previewSource, 'writer-preview.md'), error: '' };
+    } catch (error) {
+      return { essay: null, error: error.message };
+    }
+  }, [previewSource]);
+
+  const publication = useMemo(() => {
     try {
       return { essay: parseEssayMarkdown(source, 'writer.md'), error: '' };
     } catch (error) {
@@ -137,8 +156,8 @@ export default function WriterPage() {
   }
 
   async function publish() {
-    if (!preview.essay) {
-      setStatus(preview.error || 'Fix the essay before publishing.');
+    if (!publication.essay) {
+      setStatus(publication.error || 'Fix the essay before publishing.');
       return;
     }
     if (!password) {
@@ -249,7 +268,10 @@ export default function WriterPage() {
               Publishing password
               <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" />
             </label>
-            <button type="button" className="writer-publish-button" onClick={publish} disabled={isPublishing || !preview.essay}>
+            {publication.error && (
+              <p className="writer-publish-validation">{publication.error}</p>
+            )}
+            <button type="button" className="writer-publish-button" onClick={publish} disabled={isPublishing || !publication.essay}>
               {isPublishing ? 'Publishing…' : 'Publish now'}
             </button>
           </details>

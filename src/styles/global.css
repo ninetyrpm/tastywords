@@ -573,3 +573,10 @@ section p {
     grid-template-columns: 1fr;
   }
 }
+
+.writer-publish-validation {
+  margin: 0.75rem 0 0;
+  color: var(--muted, #777);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
