@@ -141,19 +141,29 @@ The more closely I examined the architecture, the less certain I became that I l
 
 My understanding of domination widened.
 
-The state was not the only institution capable of limiting human agency. Employers, landlords, monopolies, inherited wealth, racial hierarchies, social expectations, and material dependency could all shape which choices were realistically available.
-
-An agreement can be technically voluntary while one party has almost no meaningful ability to reject it.
+The state was not the only institution capable of limiting human agency. Employers, landlords, monopolies, inherited wealth, racial hierarchies, social expectations, and material dependency could all shape which choices were realistically available. An agreement can be technically voluntary while one party has almost no meaningful ability to reject it.
 
 This did not erase the difference between violence and bargaining, or between government and private association. It did make those distinctions less capable of resolving every question on their own.
 
 Bleeding Heart Libertarians and C4SS offered spaces where liberty was discussed alongside vulnerability, inequality, and social justice. They were attempts—imperfect, disputed, occasionally contradictory—to preserve a concern for autonomy without pretending that all domination arrives through legislation.
 
-I became harder to classify.
+To some libertarians, broadening the critique of power looked like abandoning liberty for collectivism. To some progressives, maintaining a suspicion of state power looked naïve or obstructive. To conservatives, my hostility toward entrenched corporate privilege and inherited hierarchy challenged the foundations of Reaganomics and the mythology of meritocracy. The more consistently I tried to apply my principles, the less recognizable I became to any of them.
 
-To some libertarians, broadening the critique of power looked like abandoning liberty for collectivism. To some progressives, maintaining a suspicion of state power looked naïve or obstructive. To conservatives, my hostility toward entrenched corporate privilege and inherited hierarchy placed me elsewhere again.
+I tested that possibility several times by attending local Libertarian Party meetups. I would arrive hoping to discuss how the party might advance its ideas, make its platform intelligible to ordinary people, or offer a welcoming exit to those dissatisfied with the two-party dichotomy. Unfortunately, I do not remember leaving once with the sense that we had made meaningful progress toward any of those goals.
 
-Eventually, I entered formal political advocacy through Rank the Vote Kentucky, an organization promoting ranked-choice voting.
+Instead, we mostly debated one another. We argued over philosophy, terminology, and the increasingly narrow distinctions among the various flavors of libertarianism. People who agreed on nearly everything could devote an evening to identifying the one disagreement that disqualified someone from being a real libertarian. The party that claimed to prize individual difference seemed remarkably preoccupied with policing the borders of its own identity. It was the no-true-Scotsman problem elevated into an organizing principle.
+
+There was little sustained conversation about growing the tent, listening empathetically to skeptics, or communicating our ideas to people who had not already read the same books. We spoke as though the public had rejected libertarianism after carefully considering its arguments, when most people had encountered it only as a caricature—or had never encountered it at all. Rather than opening the door, we stood inside debating who had the right to call the room libertarian.
+
+Yet those meetings were not fruitless. I met one or two people who deeply influenced me, including John Hicks. Hicks was thoughtful, civil, and unusually interested in making libertarian ideas intelligible beyond libertarian rooms. He later became the party’s candidate for governor of Kentucky in 2019, campaigning in part on election reform and the argument that the two-party system exaggerated our differences.
+
+Hicks received 28,433 votes. Democrat Andy Beshear defeated Republican incumbent Matt Bevin by only 5,136. The arithmetic immediately transformed Hicks from an obscure third-party candidate into a supposed spoiler: a man blamed by some Bevin supporters for “stealing” enough votes to change the outcome, as though those votes had belonged to the Republican candidate before they were cast.
+
+Hicks did not retreat from that accusation. He had spoken during the campaign about the value of becoming a spoiler precisely because it might expose the inadequacy of plurality elections. His answer was not that third-party candidates should disappear to protect one of the dominant parties. It was that voters should be allowed to rank their choices.
+
+Ranked-choice voting offered a way to preserve political difference without converting every alternative into sabotage. A voter could support the candidate who represented them most honestly without being told that doing so had helped elect the candidate they opposed most strongly.
+
+That idea eventually pulled me from philosophical discussion into political organizing through Rank the Vote Kentucky.
 
 > **PERSONAL ANECDOTE NEEDED:** Briefly describe what pulled you into Rank the Vote Kentucky, what leadership actually looked like, and one moment that exposed either the promise or absurdity of political organizing. Include the friendship with the Ranked Choice Voting Resource Center contributor only where it humanizes the experience rather than adding credentials.
 
@@ -167,11 +177,7 @@ Not politically indifferent. Not neutral. Not free of values.
 
 Homeless.
 
-I could often understand the fears, experiences, or moral intuitions motivating people on opposing sides. This rarely made either side trust me more.
-
-Most tribes know what to do with an enemy. Enemies clarify the boundary. They reinforce the story the group tells about itself.
-
-A person who understands both sides is harder to classify.
+I could often understand the fears, experiences, or moral intuitions motivating people on opposing sides. This rarely made either side trust me more. Most tribes know what to do with an enemy. Enemies clarify the boundary. They reinforce the story the group tells about itself. A person who understands both sides is harder to classify.
 
 Empathy at the intersection can appear less principled than allegiance at either pole. Refusing the dichotomy is interpreted as an inability to choose, even when the dichotomy itself is what deserves to be questioned.
 
@@ -179,7 +185,7 @@ Empathy at the intersection can appear less principled than allegiance at either
 
 ### VI. Hospitality
 
-Political philosophy initially taught me to imagine freedom as the ability to be left alone, but living a meaningful life made that definition increasingly difficult to sustain.
+Political philosophy initially taught me to imagine freedom as the ability to be left alone, but living a meaningful and social life made that definition increasingly difficult to sustain.
 
 I have been fortunate enough to travel to numerous countries distinct from my own. My careeer and vacations have afforded me unique experiences in China, Japan, Korea, Mexico, and Portugal. I arrived in these nations as someone dependent on systems of meaning I did not create. Language, etiquette, transportation, hospitality, and ordinary social competence all belonged more naturally to other people.
 
@@ -189,7 +195,9 @@ Travel makes guesthood literal.
 
 A guest does not arrive sovereign. A guest depends upon a door being opened, directions being offered, mistakes being forgiven, and unfamiliar needs being made intelligible. What feels like personal competence at home can disappear as soon as the context changes. The experience exposes self-sufficiency as partly environmental.
 
-We are capable because other people maintain roads, teach languages, grow food, create norms, share knowledge, and perform the invisible labor that allows our choices to mean anything. Even our independence is scaffolded by relationships.
+We are capable because other people maintain roads, teach languages, grow food, create norms, share knowledge, and perform the invisible labor that allows our choices to mean anything.
+
+> Our independence and autonomy is scaffolded by relationships.
 
 My friendships complicated my politics in similar ways. Real people rarely embody internally consistent ideologies. Their beliefs emerge through race, class, gender, work, family, religion, geography, injury, care, opportunity, and the particular collection of accidents through which a life takes shape.
 
@@ -197,10 +205,9 @@ My friendships complicated my politics in similar ways. Real people rarely embod
 
 The abstract individual of libertarian theory began to look lonely.
 
-Freedom was not merely the absence of interference. It was also the presence of capacity: trust, shared resources, reciprocal responsibility, common infrastructure, knowledge, and care.
+Freedom is not merely the absence of interference. It is also the presence of capacity: trust, shared resources, reciprocal responsibility, common infrastructure, knowledge, and care.
 
 We do not become free by escaping every obligation to one another.
-
 We become capable through relationships that none of us could create alone.
 
 A guest’s freedom exists partly because someone has opened a door.
@@ -209,41 +216,42 @@ A guest’s freedom exists partly because someone has opened a door.
 
 ### VII. The Art of Not Forcing
 
-Daoism gave me language for something I had been circling without being able to name.
-
-Or perhaps it gave me permission to stop naming it so aggressively.
+Daoism gave me language for something I had been circling without being able to name. More importantly, it gave me permission to stop trying to name it so aggressively.
 
 The *Dao De Jing* is suspicious of the human tendency to force reality into categories and then forget that we created them. Names are useful, but they are not the things they name. Rules can create order, but an obsession with control can produce the disorder it was designed to prevent.
 
-*Wu wei* is sometimes translated as non-action, which makes it sound like passivity. I understand it more as action without compulsive forcing: responding to the conditions that exist rather than continuously punishing them for failing to match the conditions we imagined.
+*Wu wei* is sometimes translated as non-action, which makes it sound like passivity. It also loses much of its subtlety when flattened into the Western shorthand of “going with the flow.” I understand it instead as action without compulsive forcing: responding to the conditions that exist rather than continually punishing them for failing to match the conditions we imagined.
 
-This is not an argument against intention.
+This is not an argument against intention. It is an argument against mistaking intention for reality. Contemporary identity frequently demands such declarations.
 
-It is an argument against mistaking intention for reality.
+** Political Identities**
 
-Contemporary identity frequently demands declarations.
+- You are or are not a Democrat.
+- You are or are not a Republican.
+- You are or are not a libertarian.
 
-You are or are not a libertarian.
+** Religious Identities **
 
-You are or are not a Daoist.
+- You are or are not a Christian.
+- You are or are not a Muslim.
+- You are or are not a Daoist.
 
-You are or are not part of fixed-gear culture.
+** Bicycle Identities **
 
-You belong or you do not.
+- You are or are not a roadie.
+- You are or are not a mountain biker.
+- You are or are not a fixeie goon.
 
-These declarations simplify coordination. They help us find communities and establish trust. They can also transform partial truths into total allegiances.
+The categories change, but the demand remains the same: choose a label, enter its boundaries, and accept the assumptions that come with it.
+Such declarations can simplify coordination. They help us find communities and establish trust. But they can also transform partial truths into total allegiances.
 
-My own experience has been less clean.
-
-I can be influenced by a philosophy without becoming its adherent. I can participate in a community without feeling entitled to represent it. I can defend a group against caricature while retaining serious criticisms of what happens inside it.
+We can be influenced by a philosophy without becoming its adherent. WE can participate in a community without feeling entitled to represent it. We can defend a group against caricature while retaining serious criticisms of what happens inside it.
 
 Perhaps my inability to settle into identities has sometimes been a failure of commitment. But perhaps some identities demand more certainty than experience can honestly provide.
 
 Daoism does not resolve this conflict by identifying the correct side. It questions the need to divide the world so confidently in the first place.
 
-The intersection may not be an indecisive midpoint between two complete positions.
-
-It may be where their incompleteness becomes visible.
+> The intersection is not an indecisive midpoint between two complete positions. It is instead where their incompleteness becomes visible.
 
 ---
 
