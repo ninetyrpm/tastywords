@@ -183,3 +183,29 @@ To add a caption, place a standalone italic paragraph immediately after the imag
 ```
 
 The image and caption render in both the `/write` live preview and published essays. A standalone italic paragraph elsewhere remains ordinary italic body text.
+
+
+### Image formatting
+
+Use standard Markdown image syntax:
+
+```md
+![Alt text](/images/example.png)
+```
+
+Optional modifiers follow the image with braces:
+
+```md
+![Alt text](/images/example.png){border}
+![Alt text](/images/example.png){wide}
+![Alt text](/images/example.png){compact}
+![Alt text](/images/example.png){dark border}
+```
+
+Available modifiers are `border`, `wide`, `compact`, and `dark`. `wide` and `compact` are mutually exclusive; `compact` wins if both are supplied. Add a standalone italic paragraph immediately after the image to create a caption:
+
+```md
+![The Design Squiggle](/images/design-squiggle.png){border wide}
+
+*Damien Newman’s Design Squiggle.*
+```

@@ -47,15 +47,22 @@ function Paragraph({ text, kind, asset }) {
   }
 
   if (kind === 'image' && asset) {
+    const modifierClasses = (asset.modifiers ?? [])
+      .map((modifier) => `essay-figure--${modifier}`)
+      .join(' ');
+
     return (
-      <figure className="essay-figure">
-        <img src={asset.src} alt={asset.alt} title={asset.title} loading="lazy" />
+      <figure className={`essay-figure ${modifierClasses}`.trim()}>
+        <div className="essay-figure-frame">
+          <img src={asset.src} alt={asset.alt} title={asset.title} loading="lazy" />
+        </div>
+        {asset.caption && (
+          <figcaption className="essay-caption">
+            <InlineText text={asset.caption} />
+          </figcaption>
+        )}
       </figure>
     );
-  }
-
-  if (kind === 'caption') {
-    return <p className="essay-caption"><InlineText text={text} /></p>;
   }
 
   return <p><InlineText text={text} /></p>;

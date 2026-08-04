@@ -62,8 +62,21 @@ function parseBlock(block) {
 
   const image =
     lines.length === 1 &&
-    lines[0].match(/^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']+)["'])?\)$/);
+    lines[0].match(
+      /^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']+)["'])?\)(?:\{([^}]+)\})?$/,
+    );
   if (image) {
+    const allowedModifiers = new Set(['border', 'wide', 'compact', 'dark']);
+    const modifiers = (image[4] ?? '')
+      .split(/\s+/)
+      .map((modifier) => modifier.trim().toLowerCase())
+      .filter((modifier) => allowedModifiers.has(modifier));
+
+    if (modifiers.includes('compact')) {
+      const wideIndex = modifiers.indexOf('wide');
+      if (wideIndex >= 0) modifiers.splice(wideIndex, 1);
+    }
+
     return {
       text: image[1].trim(),
       style: 'image',
@@ -71,6 +84,7 @@ function parseBlock(block) {
         alt: image[1].trim(),
         src: image[2],
         title: image[3]?.trim(),
+        modifiers,
       },
     };
   }
@@ -124,26 +138,31 @@ function parseSection(sectionSource, sectionIndex) {
     .filter(Boolean)
     .map(parseBlock);
 
-  blocks.forEach((block, index) => {
-    if (index === 0 || blocks[index - 1].style !== 'image' || block.style) return;
+  const mergedBlocks = [];
 
-    const caption = block.text.match(/^(?:\*([^*]+)\*|_([^_]+)_)$/);
-    if (caption) {
-      block.text = (caption[1] ?? caption[2]).trim();
-      block.style = 'caption';
+  blocks.forEach((block) => {
+    const previous = mergedBlocks[mergedBlocks.length - 1];
+    if (previous?.style === 'image' && !block.style) {
+      const caption = block.text.match(/^(?:\*([^*]+)\*|_([^_]+)_)$/);
+      if (caption) {
+        previous.asset.caption = (caption[1] ?? caption[2]).trim();
+        return;
+      }
     }
+
+    mergedBlocks.push(block);
   });
 
   const styles = {};
   const assets = {};
-  blocks.forEach((block, paragraphIndex) => {
+  mergedBlocks.forEach((block, paragraphIndex) => {
     if (block.style) styles[paragraphIndex] = block.style;
     if (block.asset) assets[paragraphIndex] = block.asset;
   });
 
   return {
     id: `section-${sectionIndex + 1}`,
-    paragraphs: blocks.map((block) => block.text),
+    paragraphs: mergedBlocks.map((block) => block.text),
     ...(Object.keys(styles).length > 0 ? { styles } : {}),
     ...(Object.keys(assets).length > 0 ? { assets } : {}),
   };
