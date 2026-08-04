@@ -1,9 +1,12 @@
+import { useRef } from 'react';
 import EssayHeader from './EssayHeader';
 import EssaySection from './EssaySection';
 import EssayClosing from './EssayClosing';
 import { getReadingMinutes } from '../utils/readingTime';
 
 export default function WriterPreview({ essay, compact = true }) {
+  const articleRef = useRef(null);
+
   if (!essay) {
     return (
       <div className="writer-preview-empty">
@@ -14,10 +17,18 @@ export default function WriterPreview({ essay, compact = true }) {
 
   const readingMinutes = getReadingMinutes(essay);
 
+  function scrollToEssay() {
+    articleRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   return (
     <div className={compact ? 'writer-preview is-compact' : 'writer-preview'}>
-      <EssayHeader essay={essay} readingMinutes={readingMinutes} />
-      <article id="letter" className="letter">
+      <EssayHeader
+        essay={essay}
+        readingMinutes={readingMinutes}
+        onRead={scrollToEssay}
+      />
+      <article className="letter" ref={articleRef}>
         {essay.sections.map((section, index) => (
           <EssaySection
             key={section.id}

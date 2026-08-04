@@ -39,6 +39,10 @@ function Paragraph({ text, kind }) {
     return <aside className="editorial-note"><InlineText text={text} /></aside>;
   }
 
+  if (kind === 'edit-flag') {
+    return <aside className="edit-flag"><InlineText text={text} /></aside>;
+  }
+
   return <p><InlineText text={text} /></p>;
 }
 

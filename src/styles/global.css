@@ -108,7 +108,12 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 0.45rem;
+  border: 0;
+  background: transparent;
   color: var(--muted);
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
   text-decoration: none;
   font-size: 0.68rem;
   font-weight: 500;
@@ -485,6 +490,10 @@ section p {
 }
 
 .writer-preview-pane {
+  position: sticky;
+  top: 64px;
+  align-self: start;
+  height: calc(100vh - 64px);
   overflow: hidden;
 }
 
@@ -550,6 +559,8 @@ section p {
   }
 
   .writer-preview-pane {
+    position: static;
+    height: auto;
     border-top: 1px solid var(--hairline);
   }
 
@@ -579,4 +590,17 @@ section p {
   color: var(--muted, #777);
   font-size: 0.82rem;
   line-height: 1.4;
+}
+
+/* Writer-only revision markers */
+
+.edit-flag {
+  margin: 2.2rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px dashed var(--accent);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.018);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }

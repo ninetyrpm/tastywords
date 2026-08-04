@@ -1,6 +1,6 @@
 import ScrollCue from './ScrollCue';
 
-export default function EssayHeader({ essay, readingMinutes, heroRef }) {
+export default function EssayHeader({ essay, readingMinutes, heroRef, onRead }) {
   return (
     <header className="hero" ref={heroRef}>
       <div className="hero-copy">
@@ -16,7 +16,7 @@ export default function EssayHeader({ essay, readingMinutes, heroRef }) {
         <p className="subtitle">{essay.subtitle}</p>
         <p className="meta">{readingMinutes} min read</p>
       </div>
-      <ScrollCue />
+      <ScrollCue onActivate={onRead} />
     </header>
   );
 }

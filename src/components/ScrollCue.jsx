@@ -1,6 +1,11 @@
-export default function ScrollCue() {
+export default function ScrollCue({ onActivate }) {
   return (
-    <a className="scroll-indicator" href="#letter" aria-label="Read the letter">
+    <button
+      type="button"
+      className="scroll-indicator"
+      onClick={onActivate}
+      aria-label="Read the essay"
+    >
       <span>Read</span>
       <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
         <path
@@ -12,6 +17,6 @@ export default function ScrollCue() {
           strokeLinejoin="round"
         />
       </svg>
-    </a>
+    </button>
   );
 }

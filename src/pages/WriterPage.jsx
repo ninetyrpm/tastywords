@@ -249,7 +249,7 @@ export default function WriterPage() {
 
           <label className="writer-body-label" htmlFor="essay-body">
             Essay Markdown
-            <span>Use &gt; for pulls, --- for section breaks, ### for section titles, and - for stacked lists.</span>
+            <span>Use &gt; for pulls; &gt; **EDITORIAL NOTE:** for notes; &gt; **EDIT NEEDED:** to flag revisions; --- for section breaks; ### for section titles; and - for stacked lists.</span>
           </label>
           <textarea
             id="essay-body"

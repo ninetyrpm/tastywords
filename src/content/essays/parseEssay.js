@@ -67,10 +67,23 @@ function parseBlock(block) {
       .join(' ')
       .trim();
 
-    if (/^\*\*PERSONAL ANECDOTE NEEDED:/i.test(text)) {
+    const editorialNote = text.match(
+      /^\*\*(PERSONAL ANECDOTE NEEDED:|EDITORIAL NOTE:|NOTE:)\*\*\s*(.*)$/i,
+    );
+    if (editorialNote) {
       return {
-        text: text.replace(/^\*\*(PERSONAL ANECDOTE NEEDED:)\**/i, '$1'),
+        text: `${editorialNote[1]} ${editorialNote[2]}`.trim(),
         style: 'editorial-note',
+      };
+    }
+
+    const editFlag = text.match(
+      /^\*\*(EDIT NEEDED:|REVISION NEEDED:|TODO:)\*\*\s*(.*)$/i,
+    );
+    if (editFlag) {
+      return {
+        text: `${editFlag[1]} ${editFlag[2]}`.trim(),
+        style: 'edit-flag',
       };
     }
 

@@ -141,3 +141,27 @@ src/content/essays/<slug>.md
 The resulting commit to `main` triggers the normal Vercel production deployment. The new essay may take a minute or two to become available after the portal reports a successful commit.
 
 The portal is a lightweight single-author tool, not a multi-user CMS. Anyone can view the `/write` interface if they know the route, but only someone with `WRITER_PASSWORD` can commit. For stronger access control, protect `/write` through Vercel Deployment Protection or an external authentication layer.
+
+## Writer notes and revision flags
+
+Inside `/write`, use ordinary blockquote syntax for pull quotes:
+
+```md
+> This is a pull quote.
+```
+
+Use these labeled blockquotes for private drafting reminders that remain visually distinct in the preview:
+
+```md
+> **EDITORIAL NOTE:** Decide whether this section belongs earlier.
+
+> **EDIT NEEDED:** Tighten the paragraph below and add a concrete example.
+
+> **PERSONAL ANECDOTE NEEDED:** Return to the opening scene with one sensory detail.
+```
+
+`NOTE:` is accepted as a shorter alias for `EDITORIAL NOTE:`. `REVISION NEEDED:` and `TODO:` are accepted as aliases for `EDIT NEEDED:`.
+
+The live preview pane remains fixed beside the editor on desktop while the editor column scrolls. On narrower screens the editor and preview stack normally.
+
+The title-screen Read control uses `scrollIntoView()` rather than a URL fragment, so reading an essay no longer adds `#letter` to its URL.

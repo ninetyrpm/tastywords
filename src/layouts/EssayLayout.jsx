@@ -12,12 +12,17 @@ export default function EssayLayout({ essay }) {
   const readingMinutes = getReadingMinutes(essay);
   const { progress, hasStarted } = useReadingProgress(articleRef, heroRef);
 
+  function scrollToEssay() {
+    articleRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   return (
     <main>
       <EssayHeader
         essay={essay}
         readingMinutes={readingMinutes}
         heroRef={heroRef}
+        onRead={scrollToEssay}
       />
 
       <ReadingProgress
@@ -26,7 +31,7 @@ export default function EssayLayout({ essay }) {
         visible={hasStarted}
       />
 
-      <article id="letter" className="letter" ref={articleRef}>
+      <article className="letter" ref={articleRef}>
         {essay.sections.map((section, index) => (
           <EssaySection
             key={section.id}
