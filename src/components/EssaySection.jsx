@@ -1,14 +1,17 @@
 import WheelMarker from './WheelMarker';
 
 function InlineText({ text }) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).filter(Boolean);
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|_[^_]+_)/g).filter(Boolean);
 
   return parts.map((part, index) => {
     if (part.startsWith('**') && part.endsWith('**')) {
       return <strong key={`${part}-${index}`}>{part.slice(2, -2)}</strong>;
     }
 
-    if (part.startsWith('*') && part.endsWith('*')) {
+    if (
+      (part.startsWith('*') && part.endsWith('*')) ||
+      (part.startsWith('_') && part.endsWith('_'))
+    ) {
       return <em key={`${part}-${index}`}>{part.slice(1, -1)}</em>;
     }
 
@@ -16,7 +19,7 @@ function InlineText({ text }) {
   });
 }
 
-function Paragraph({ text, kind }) {
+function Paragraph({ text, kind, asset }) {
   if (kind === 'stacked') {
     return (
       <div className="stacked">
@@ -43,6 +46,18 @@ function Paragraph({ text, kind }) {
     return <aside className="edit-flag"><InlineText text={text} /></aside>;
   }
 
+  if (kind === 'image' && asset) {
+    return (
+      <figure className="essay-figure">
+        <img src={asset.src} alt={asset.alt} title={asset.title} loading="lazy" />
+      </figure>
+    );
+  }
+
+  if (kind === 'caption') {
+    return <p className="essay-caption"><InlineText text={text} /></p>;
+  }
+
   return <p><InlineText text={text} /></p>;
 }
 
@@ -55,6 +70,7 @@ export default function EssaySection({ section, isLast }) {
             key={`${section.id}-${index}`}
             text={paragraph}
             kind={section.styles?.[index]}
+            asset={section.assets?.[index]}
           />
         ))}
       </section>

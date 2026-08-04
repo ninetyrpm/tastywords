@@ -165,3 +165,21 @@ Use these labeled blockquotes for private drafting reminders that remain visuall
 The live preview pane remains fixed beside the editor on desktop while the editor column scrolls. On narrower screens the editor and preview stack normally.
 
 The title-screen Read control uses `scrollIntoView()` rather than a URL fragment, so reading an essay no longer adds `#letter` to its URL.
+
+### Images and captions
+
+Place essay images in `public/images/` (or an essay-specific subfolder) and reference them with standard Markdown:
+
+```md
+![The Design Squiggle](/images/design-squiggle.png)
+```
+
+To add a caption, place a standalone italic paragraph immediately after the image:
+
+```md
+![The Design Squiggle](/images/design-squiggle.png)
+
+*Damien Newman’s Design Squiggle.*
+```
+
+The image and caption render in both the `/write` live preview and published essays. A standalone italic paragraph elsewhere remains ordinary italic body text.

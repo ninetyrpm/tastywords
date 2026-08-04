@@ -60,6 +60,21 @@ function parseBlock(block) {
   const heading = lines.length === 1 && lines[0].match(/^###\s+(.+)$/);
   if (heading) return { text: heading[1].trim(), style: 'section-title' };
 
+  const image =
+    lines.length === 1 &&
+    lines[0].match(/^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']+)["'])?\)$/);
+  if (image) {
+    return {
+      text: image[1].trim(),
+      style: 'image',
+      asset: {
+        alt: image[1].trim(),
+        src: image[2],
+        title: image[3]?.trim(),
+      },
+    };
+  }
+
   const isPull = lines.every((line) => line.startsWith('>'));
   if (isPull) {
     const text = lines
@@ -109,15 +124,28 @@ function parseSection(sectionSource, sectionIndex) {
     .filter(Boolean)
     .map(parseBlock);
 
+  blocks.forEach((block, index) => {
+    if (index === 0 || blocks[index - 1].style !== 'image' || block.style) return;
+
+    const caption = block.text.match(/^(?:\*([^*]+)\*|_([^_]+)_)$/);
+    if (caption) {
+      block.text = (caption[1] ?? caption[2]).trim();
+      block.style = 'caption';
+    }
+  });
+
   const styles = {};
+  const assets = {};
   blocks.forEach((block, paragraphIndex) => {
     if (block.style) styles[paragraphIndex] = block.style;
+    if (block.asset) assets[paragraphIndex] = block.asset;
   });
 
   return {
     id: `section-${sectionIndex + 1}`,
     paragraphs: blocks.map((block) => block.text),
     ...(Object.keys(styles).length > 0 ? { styles } : {}),
+    ...(Object.keys(assets).length > 0 ? { assets } : {}),
   };
 }
 

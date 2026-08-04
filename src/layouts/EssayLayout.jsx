@@ -13,6 +13,10 @@ export default function EssayLayout({ essay }) {
   const { progress, hasStarted } = useReadingProgress(articleRef, heroRef);
 
   function scrollToEssay() {
+    if (window.location.hash) {
+      window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+    }
+
     articleRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 

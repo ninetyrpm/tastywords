@@ -3,10 +3,10 @@ slug: the-guest
 plainTitle: The Guest
 titleLines:
   - The Guest
-subtitle: Being Shaped Without Becoming Fixed
+subtitle: On Belonging Without Possession
 eyebrow: Draft Essay
 signature: Ken
-dateline: "Louisville, Kentucky · August 2026"
+dateline: Louisville, Kentucky · Draft
 ---
 
 ### I. The Open Category
@@ -141,29 +141,19 @@ The more closely I examined the architecture, the less certain I became that I l
 
 My understanding of domination widened.
 
-The state was not the only institution capable of limiting human agency. Employers, landlords, monopolies, inherited wealth, racial hierarchies, social expectations, and material dependency could all shape which choices were realistically available. An agreement can be technically voluntary while one party has almost no meaningful ability to reject it.
+The state was not the only institution capable of limiting human agency. Employers, landlords, monopolies, inherited wealth, racial hierarchies, social expectations, and material dependency could all shape which choices were realistically available.
+
+An agreement can be technically voluntary while one party has almost no meaningful ability to reject it.
 
 This did not erase the difference between violence and bargaining, or between government and private association. It did make those distinctions less capable of resolving every question on their own.
 
 Bleeding Heart Libertarians and C4SS offered spaces where liberty was discussed alongside vulnerability, inequality, and social justice. They were attempts—imperfect, disputed, occasionally contradictory—to preserve a concern for autonomy without pretending that all domination arrives through legislation.
 
-To some libertarians, broadening the critique of power looked like abandoning liberty for collectivism. To some progressives, maintaining a suspicion of state power looked naïve or obstructive. To conservatives, my hostility toward entrenched corporate privilege and inherited hierarchy challenged the foundations of Reaganomics and the mythology of meritocracy. The more consistently I tried to apply my principles, the less recognizable I became to any of them.
+I became harder to classify.
 
-I tested that possibility several times by attending local Libertarian Party meetups. I would arrive hoping to discuss how the party might advance its ideas, make its platform intelligible to ordinary people, or offer a welcoming exit to those dissatisfied with the two-party dichotomy. Unfortunately, I do not remember leaving once with the sense that we had made meaningful progress toward any of those goals.
+To some libertarians, broadening the critique of power looked like abandoning liberty for collectivism. To some progressives, maintaining a suspicion of state power looked naïve or obstructive. To conservatives, my hostility toward entrenched corporate privilege and inherited hierarchy placed me elsewhere again.
 
-Instead, we mostly debated one another. We argued over philosophy, terminology, and the increasingly narrow distinctions among the various flavors of libertarianism. People who agreed on nearly everything could devote an evening to identifying the one disagreement that disqualified someone from being a real libertarian. The party that claimed to prize individual difference seemed remarkably preoccupied with policing the borders of its own identity. It was the no-true-Scotsman problem elevated into an organizing principle.
-
-There was little sustained conversation about growing the tent, listening empathetically to skeptics, or communicating our ideas to people who had not already read the same books. We spoke as though the public had rejected libertarianism after carefully considering its arguments, when most people had encountered it only as a caricature—or had never encountered it at all. Rather than opening the door, we stood inside debating who had the right to call the room libertarian.
-
-Yet those meetings were not fruitless. I met one or two people who deeply influenced me, including John Hicks. Hicks was thoughtful, civil, and unusually interested in making libertarian ideas intelligible beyond libertarian rooms. He later became the party’s candidate for governor of Kentucky in 2019, campaigning in part on election reform and the argument that the two-party system exaggerated our differences.
-
-Hicks received 28,433 votes. Democrat Andy Beshear defeated Republican incumbent Matt Bevin by only 5,136. The arithmetic immediately transformed Hicks from an obscure third-party candidate into a supposed spoiler: a man blamed by some Bevin supporters for “stealing” enough votes to change the outcome, as though those votes had belonged to the Republican candidate before they were cast.
-
-Hicks did not retreat from that accusation. He had spoken during the campaign about the value of becoming a spoiler precisely because it might expose the inadequacy of plurality elections. His answer was not that third-party candidates should disappear to protect one of the dominant parties. It was that voters should be allowed to rank their choices.
-
-Ranked-choice voting offered a way to preserve political difference without converting every alternative into sabotage. A voter could support the candidate who represented them most honestly without being told that doing so had helped elect the candidate they opposed most strongly.
-
-That idea eventually pulled me from philosophical discussion into political organizing through Rank the Vote Kentucky.
+Eventually, I entered formal political advocacy through Rank the Vote Kentucky, an organization promoting ranked-choice voting.
 
 > **PERSONAL ANECDOTE NEEDED:** Briefly describe what pulled you into Rank the Vote Kentucky, what leadership actually looked like, and one moment that exposed either the promise or absurdity of political organizing. Include the friendship with the Ranked Choice Voting Resource Center contributor only where it humanizes the experience rather than adding credentials.
 
@@ -177,7 +167,11 @@ Not politically indifferent. Not neutral. Not free of values.
 
 Homeless.
 
-I could often understand the fears, experiences, or moral intuitions motivating people on opposing sides. This rarely made either side trust me more. Most tribes know what to do with an enemy. Enemies clarify the boundary. They reinforce the story the group tells about itself. A person who understands both sides is harder to classify.
+I could often understand the fears, experiences, or moral intuitions motivating people on opposing sides. This rarely made either side trust me more.
+
+Most tribes know what to do with an enemy. Enemies clarify the boundary. They reinforce the story the group tells about itself.
+
+A person who understands both sides is harder to classify.
 
 Empathy at the intersection can appear less principled than allegiance at either pole. Refusing the dichotomy is interpreted as an inability to choose, even when the dichotomy itself is what deserves to be questioned.
 
@@ -185,19 +179,21 @@ Empathy at the intersection can appear less principled than allegiance at either
 
 ### VI. Hospitality
 
-Political philosophy initially taught me to imagine freedom as the ability to be left alone, but living a meaningful and social life made that definition increasingly difficult to sustain.
+Political philosophy initially taught me to imagine freedom as the ability to be left alone.
 
-I have been fortunate enough to travel to numerous countries distinct from my own. My careeer and vacations have afforded me unique experiences in China, Japan, Korea, Mexico, and Portugal. I arrived in these nations as someone dependent on systems of meaning I did not create. Language, etiquette, transportation, hospitality, and ordinary social competence all belonged more naturally to other people.
+Life made that definition increasingly difficult to sustain.
+
+I have traveled through China, Japan, and Portugal as someone dependent on systems of meaning I did not create. Language, etiquette, transportation, hospitality, and ordinary social competence all belonged more naturally to other people.
 
 > **PERSONAL ANECDOTE NEEDED:** Choose one small travel moment in which you were dependent on another person’s knowledge or generosity. Avoid making the anecdote a sweeping claim about the country. Focus on what it felt like to lack fluency and to be received anyway.
 
 Travel makes guesthood literal.
 
-A guest does not arrive sovereign. A guest depends upon a door being opened, directions being offered, mistakes being forgiven, and unfamiliar needs being made intelligible. What feels like personal competence at home can disappear as soon as the context changes. The experience exposes self-sufficiency as partly environmental.
+A guest does not arrive sovereign. A guest depends upon a door being opened, directions being offered, mistakes being forgiven, and unfamiliar needs being made intelligible. What feels like personal competence at home can disappear as soon as the context changes.
 
-We are capable because other people maintain roads, teach languages, grow food, create norms, share knowledge, and perform the invisible labor that allows our choices to mean anything.
+The experience exposes self-sufficiency as partly environmental.
 
-> Our independence and autonomy is scaffolded by relationships.
+We are capable because other people maintain roads, teach languages, grow food, create norms, share knowledge, and perform the invisible labor that allows our choices to mean anything. Even our independence is scaffolded by relationships.
 
 My friendships complicated my politics in similar ways. Real people rarely embody internally consistent ideologies. Their beliefs emerge through race, class, gender, work, family, religion, geography, injury, care, opportunity, and the particular collection of accidents through which a life takes shape.
 
@@ -205,9 +201,10 @@ My friendships complicated my politics in similar ways. Real people rarely embod
 
 The abstract individual of libertarian theory began to look lonely.
 
-Freedom is not merely the absence of interference. It is also the presence of capacity: trust, shared resources, reciprocal responsibility, common infrastructure, knowledge, and care.
+Freedom was not merely the absence of interference. It was also the presence of capacity: trust, shared resources, reciprocal responsibility, common infrastructure, knowledge, and care.
 
 We do not become free by escaping every obligation to one another.
+
 We become capable through relationships that none of us could create alone.
 
 A guest’s freedom exists partly because someone has opened a door.
@@ -216,42 +213,41 @@ A guest’s freedom exists partly because someone has opened a door.
 
 ### VII. The Art of Not Forcing
 
-Daoism gave me language for something I had been circling without being able to name. More importantly, it gave me permission to stop trying to name it so aggressively.
+Daoism gave me language for something I had been circling without being able to name.
+
+Or perhaps it gave me permission to stop naming it so aggressively.
 
 The *Dao De Jing* is suspicious of the human tendency to force reality into categories and then forget that we created them. Names are useful, but they are not the things they name. Rules can create order, but an obsession with control can produce the disorder it was designed to prevent.
 
-*Wu wei* is sometimes translated as non-action, which makes it sound like passivity. It also loses much of its subtlety when flattened into the Western shorthand of “going with the flow.” I understand it instead as action without compulsive forcing: responding to the conditions that exist rather than continually punishing them for failing to match the conditions we imagined.
+*Wu wei* is sometimes translated as non-action, which makes it sound like passivity. I understand it more as action without compulsive forcing: responding to the conditions that exist rather than continuously punishing them for failing to match the conditions we imagined.
 
-This is not an argument against intention. It is an argument against mistaking intention for reality. Contemporary identity frequently demands such declarations.
+This is not an argument against intention.
 
-** Political Identities**
+It is an argument against mistaking intention for reality.
 
-- You are or are not a Democrat.
-- You are or are not a Republican.
-- You are or are not a libertarian.
+Contemporary identity frequently demands declarations.
 
-** Religious Identities **
+You are or are not a libertarian.
 
-- You are or are not a Christian.
-- You are or are not a Muslim.
-- You are or are not a Daoist.
+You are or are not a Daoist.
 
-** Bicycle Identities **
+You are or are not part of fixed-gear culture.
 
-- You are or are not a roadie.
-- You are or are not a mountain biker.
-- You are or are not a fixeie goon.
+You belong or you do not.
 
-The categories change, but the demand remains the same: choose a label, enter its boundaries, and accept the assumptions that come with it.
-Such declarations can simplify coordination. They help us find communities and establish trust. But they can also transform partial truths into total allegiances.
+These declarations simplify coordination. They help us find communities and establish trust. They can also transform partial truths into total allegiances.
 
-We can be influenced by a philosophy without becoming its adherent. WE can participate in a community without feeling entitled to represent it. We can defend a group against caricature while retaining serious criticisms of what happens inside it.
+My own experience has been less clean.
+
+I can be influenced by a philosophy without becoming its adherent. I can participate in a community without feeling entitled to represent it. I can defend a group against caricature while retaining serious criticisms of what happens inside it.
 
 Perhaps my inability to settle into identities has sometimes been a failure of commitment. But perhaps some identities demand more certainty than experience can honestly provide.
 
 Daoism does not resolve this conflict by identifying the correct side. It questions the need to divide the world so confidently in the first place.
 
-> The intersection is not an indecisive midpoint between two complete positions. It is instead where their incompleteness becomes visible.
+The intersection may not be an indecisive midpoint between two complete positions.
+
+It may be where their incompleteness becomes visible.
 
 ---
 
@@ -365,64 +361,90 @@ It means belonging was never the same thing as ownership.
 
 ### XI. Guests All the Way Down
 
-The pattern repeats at every scale. We are guests in:
+The pattern repeats at every scale.
 
-- Cities built by strangers and maintained by people we may never meet.
+We are guests in cultures whose languages and symbols were formed before us.
 
-- Cultures whose languages and symbols were formed before us.
+We are guests in institutions whose histories we enter midway through.
 
-- Institutions whose histories we enter midway through.
+We are guests in cities built by strangers and maintained by people we may never meet.
 
-- Historical and political eras we did not explicitly choose.
+We are guests in bodies we did not design, whose abilities change without our consent, and which we are permitted to inhabit only temporarily.
 
-- Bodies we did not design, whose abilities change without our consent, and which we are permitted to inhabit only temporarily.
+We are guests in historical moments we did not choose.
 
-- A planet we inherited from people who are gone and will leave to people whose names we will never know.
+We are guests on a planet we inherited from people who are gone and will leave to people whose names we will never know.
 
-> We are guests in time itself.
+We are guests in time itself.
 
-The universe was not waiting for us. We arrive during a story already in progress and depart before it is finished. This might sound like the most complete form of alienation: no permanent home, no stable identity, no possession that survives long enough to justify the word. But guesthood contains another feeling:
+The universe was not waiting for us. We arrive during a story already in progress and depart before it is finished.
 
-**Gratitude**.
+This could sound like the most complete form of alienation: no permanent home, no stable identity, no possession that survives long enough to justify the word.
 
-To be a guest is to have been admitted somewhere, however briefly. We are given permisson occupy both a time and space that we do not truly own. We eat food we did not grow. We speak words we did not invent. We travel roads we did not build. We inherit stories, tools, rituals, errors, and unfinished projects. We experience a world assembled through countless acts of labor and care that occurred before our arrival.
+But guesthood contains another feeling.
 
-To be a guest is not to remain untouched by the house. Hospitality creates obligation. Someone opened the door, prepared the room, and made space for our arrival. We repay that generosity not by pretending the house is ours, but by accepting some responsibility for what happens while we are inside it. Perhaps this is what distinguishes the traveler from the tourist: not how far one goes or how long one stays, but whether one accepts a relationship with the space they temporarily inhabit.
+Gratitude.
 
-I spent years treating guesthood as evidence that I had failed to find a home, secretly seeking a permanence that was perhaps never available to anyone.
+To be a guest is to have been admitted somewhere, however briefly.
+
+We eat food we did not grow. We speak words we did not invent. We travel roads we did not build. We inherit stories, tools, rituals, errors, and unfinished projects. We experience a world assembled through countless acts of labor and care that occurred before our arrival.
+
+I spent years treating guesthood as evidence that I had failed to find a home.
+
+Perhaps permanence was never available to anyone.
+
+We arrive midway through.
+
+We depend on arrangements we did not create.
+
+We alter them by participating.
+
+We leave before the story ends.
 
 ---
 
 ### XII. What Kind of Guest?
 
-The answer cannot be permanent detachment. A guest who refuses every obligation is not liberated. They are merely consuming someone else’s hospitality. A good guest pays attention.
+The answer cannot be permanent detachment.
 
-They learn the customs without mistaking them for natural law. They accept generosity without converting it into entitlement. They contribute. They help maintain the place. They question rules that cause harm without assuming that everything unfamiliar is foolish. They help with the dishes. They remember that other guests will arrive after them.
+A guest who refuses every obligation is not liberated. They are merely consuming someone else’s hospitality.
 
-This is how I want to belong: not as an owner, partisan, or permanent resident, but as someone temporarily responsible. To participate without surrendering judgment. To love a community without believing it innocent. To help build institutions without allowing their survival to become more important than their purpose. To stay without pretending that staying makes the place mine.
+A good guest pays attention.
+
+They learn the customs without mistaking them for natural law. They accept generosity without converting it into entitlement. They contribute. They help maintain the place. They question rules that cause harm without assuming that everything unfamiliar is foolish.
+
+They help with the dishes.
+
+They do not confuse affection with ownership.
+
+They remember that other guests will arrive after them.
+
+Perhaps this is how I want to belong: not as an owner, partisan, or permanent resident, but as someone temporarily responsible.
+
+To participate without surrendering judgment.
+
+To love a community without believing it innocent.
+
+To help build institutions without allowing their survival to become more important than their purpose.
+
+To stay without pretending that staying makes the place mine.
 
 > **PERSONAL ANECDOTE NEEDED:** Return to the alleycat from the opening. Describe the finish or dispersal. Who arrived? What state were people in? What happened to the temporary community once the race was over? Echo one image or phrase from the first section.
 
-An alleycat race briefly reorganizes the city:
+An alleycat briefly reorganizes the city.
 
-Riders move between checkpoints by routes no organizer prescribes. Some make brilliant decisions. Some choose badly. Some get lost. Rules are interpreted, tested, and occasionally ignored. For a few hours, people use the city differently than it was designed to be used. Then they finish.
+Riders move between checkpoints by routes no organizer prescribes. Some make brilliant decisions. Some choose badly. Some get lost. Rules are interpreted, tested, and occasionally ignored. For a few hours, people use the city differently than it was designed to be used.
 
-The manifests are turned in. Riders argue about routes, compare mistakes, and recover together. Eventually the gathering dissolves back into ordinary traffic. No one owns the course because there was never one course to own.
+Then they finish.
 
-Perhaps this is what the Dao had been trying to teach me: the Way is not a route prescribed in advance. It emerges through attention, movement, error, and response. We do not master it by insisting that everyone travel as we do. We participate in it for a time, alongside others whose paths cross ours, diverge from ours, and sometimes show us where we have gone wrong.
+The manifests are turned in. Riders argue about routes, compare mistakes, and recover together. Eventually the gathering dissolves back into ordinary traffic.
 
----
+No one owns the course because there was never one course to own.
 
 I entered through the open category. I was welcomed into a culture that did not have to become mine in order to change me.
 
 I once thought freedom meant preserving the ability to leave. I still believe the door matters. But perhaps the harder task is learning how to stay without pretending to possess: to participate without surrendering judgment, to love without demanding permanence, and to care for places that will continue after us.
 
-We are all guests. The question is whether the places we pass through will be more hospitable because we were here.
+We are all guests.
 
----
-
-I spent years moving among political traditions, institutions, and subcultures in search of a name that could contain me. Each offered genuine recognition, but each also required simplification: a set of beliefs, loyalties, practices, or contradictions I would need to suppress in order to belong without qualification.
-
-I searched for the right house because I assumed that somewhere there must be a community whose name could also become my name. Instead, each house revealed both an affinity and a remainder: something in me that could not enter without being denied, simplified, or explained away. Daoism eventually helped me consider that the problem was not my failure to find the correct category. The problem was believing that a person should be fully containable by one.
-
-We are shaped by the communities we enter, but we need not become identical to them. The challenge is not to remain untouched, but to remain unfinished.
+The question is whether the places we pass through will be more hospitable because we were here.

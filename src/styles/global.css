@@ -604,3 +604,31 @@ section p {
   font-size: 0.9rem;
   line-height: 1.55;
 }
+
+/* Essay figures */
+
+.essay-figure {
+  margin: 3.5rem auto 0.8rem;
+  width: min(100%, 760px);
+}
+
+.essay-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.essay-caption {
+  margin: 0.65rem auto 3.5rem;
+  color: var(--muted);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.writer-preview.is-compact .essay-figure {
+  margin-top: 2.5rem;
+}
