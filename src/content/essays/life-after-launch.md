@@ -11,9 +11,11 @@ dateline: "Louisville, Kentucky · August 2026"
 
 ### The Squiggle
 
-The Design Squiggle begins as a knot of overlapping lines. They double back, contradict one another, and seem to make little progress. Then, gradually, the path begins to straighten. Research becomes insight. Possibilities become decisions. An abstract idea becomes something clear enough to build.
+The Design Squiggle is a simple illustration of the design process. The journey of researching, uncovering insights, generating creative concepts, iteration of prototypes and eventually concluding in one single designed solution. It is intended to convey the feeling of the journey. Beginning on the left with mess and uncertainty and ending on the right in a single point of focus: the design.
 
-* [Add the Design Squiggle image here]
+(/images/design-squiggle.png)
+
+The Design Squiggle begins as a knot of overlapping lines. They double back, contradict one another, and seem to make little progress. Then, gradually, the path begins to straighten. Research becomes insight. Possibilities become decisions. An abstract idea becomes something clear enough to build.
 
 I have spent years learning to inhabit the crowded left side of that drawing.
 
@@ -25,7 +27,7 @@ Paul Trott describes the tension neatly:
 
 A functioning company needs repeatability, predictability, deadlines, and measurable returns. Yet those same qualities can prevent it from discovering what comes next and how to stay relevant. Every exploratory effort carries a meaningful chance of producing nothing. But an organization that commits itself entirely to reproducing what already works may eventually become exceptionally efficient at serving a world that no longer exists.
 
-Much of my recent work has focused on making the practices that protect against those extremes more visible and deliberate. Begin with the cheapest experiment capable of resolving an important assumption. Spend one dollar and one hour before committing one thousand dollars and one thousand hours. We spend a little time and money to resolve the assumptions that could prevent us from wasting much more. As evidence accumulates, investment grows. Uncertainty narrows. Eventually, the squiggle approaches launch.
+Much of my recent work has focused on making the practices that protect against those extremes more visible and deliberate. Begin with the cheapest experiment capable of resolving an important assumption. Spend one dollar and one hour before committing one thousand dollars and one thousand hours. As evidence accumulates, investment grows. Uncertainty narrows. Eventually, the squiggle approaches what looks more and more like a straight line.
 
 I had grown comfortable with uncertainty that behaved this way. It could be exposed, investigated, and gradually reduced. I fundamentally understood that a system had to preserve room for discovery, even when everything appeared to be working.
 
@@ -45,7 +47,7 @@ She was proud of the piece and happy that it had been received so warmly by the 
 
 The conversation was half argument and half meaningful exchange. She could feel an absence, but neither of us could name it precisely. I felt stable and comfortable. She seemed to fear that we were moving toward a cliff neither of us could yet see.
 
-Her concern felt wrong to me. Not in dishonest or manipulative way. Wrong in the sense that a conclusion feels off when it contradicts the available evidence. We had lived through sixteen years of change without losing one another. Our relationship was strong. I thought our history answered the question she was asking. Only later did I begin to understand that she may have been asking a different question.
+Her concern felt wrong to me. Not in dishonest or manipulative way. Wrong in the sense that a conclusion feels off when it contradicts the available evidence. We had lived through sixteen years of change without losing one another. I thought our history answered the question she was asking. Only later did I begin to understand that she may have been asking a different question.
 
 ** How could a relationship be demonstrably strong and still leave one person uncertain about where it was going? **
 
@@ -55,9 +57,9 @@ Her concern felt wrong to me. Not in dishonest or manipulative way. Wrong in the
 
 In the winter of 2024, I decided that I was going to race road bikes. And when I told these plans to my wife, an unspoken tension arose between us.
 
-I understood the obvious challenges. Racing would require a significant amount of time and effort: training, riding, traveling, evenings away, weekends consumed by events, and hours spent lingering with teammates after the actual ride had ended. It would introduce physical risk into our shared life. It would redistribute attention.
+I understood the obvious challenges. Racing would require a significant amount of time and effort: training, riding, traveling, evenings away, weekends consumed by events, and hours spent lingering with teammates after the actual ride had ended. It would introduce physical, bodily risk into our shared life. It would redistribute attention and focus.
 
-I knew these costs would create tension, but they were identifiable constraints that could theoretically be scheduled, negotiated, or mitigated. What I did not comprehend was the uncertainty underneath them.
+I knew these costs would create stress, but they were identifiable constraints that could theoretically be scheduled, negotiated, or mitigated. What I did not comprehend was the uncertainty hidden underneath them.
 
 Neither of us knew what racing would become for me. Would it remain a hobby or grow into an identity? Would teammates become my primary social world? Would each season require more time than the one before it? Would the pursuit make me happier, more fulfilled, more absent, more selfish, more confident, or more injured? Would it change how I understood myself? Would that new understanding change how I participated in our marriage? The deeper uncertainty was that I was introducing a new force into our shared life before either of us knew what it would do.
 
@@ -131,6 +133,8 @@ Deliberately introducing novelty can imply that the current relationship is inad
 Yet the outcomes were real. Artificial structures can produce authentic experiences. The question is not whether the structure is authentic. It is why the same structure once felt like permission and now feels like prescription.
 
 Permission opens possibility. Prescription implies deficiency.
+
+This is why the familiar advice to “spice things up” feels inadequate. A relationship can accumulate novel experiences while remaining trapped in fixed interpretations. We could travel constantly, complete every scratch-off challenge, and continue encountering only the versions of each other we already expected to find.
  
 ---
 
@@ -158,21 +162,39 @@ My wife often lets me hear her thoughts while they are still tangled. She talks 
 * pet peeves
 * likely responses
 
-I wasn't bored of her. I had become fluent in her. And in many ways, such fluency can produce care: anticipation, shorthand, shared rhythms, the ability to understand without explanation. But on otherhand, fluency can become autocomplete. You begin generating the rest of the sentence rather than hearing how this telling may differ from the previous one. My accumulated knowledge of my wife had become efficient enough to compete with her actual presence.
+I know the kind of work she does. I know which situations frustrate her. I know what excites her and what she is likely to dislike. I recognize recurring patterns and familiar categories.
 
-I was over-relying on that archive, but it existed because she had made herself available to be known. She expressed. She narrated. She externalized experience.
+That knowledge is one of intimacy’s achievements. But it can also become dangerously efficient.
 
-I did not offer her the same volume of material.
+Sometimes she is speaking in the present while I am responding from the archive. I recognize the category of the story before she finishes telling it. Another difficult interaction at work. Another example of a frustration I already understand. Another moment when she needs to vent rather than receive advice. My phone competes for attention. I fail to recognize when active listening is needed. I may feel as though I am absorbing the emotional effects of problems I did not create, even though she is not actually directing those emotions at me.
 
-I tend to disappear into the squiggle alone. By the time I speak, I have often turned it into a decision, explanation, or finished piece of writing.  My life is largely processed internally. Growing up in a dysfunctional divorced home required independence before I was ready for it. Emotional self-containment became adaptive. The era’s masculine expectations reinforced it: crying was weakness; emotional disclosure was dangerous or indulgent. She could not build the same archive of me because much of my internal development happened privately. But the uncertainty I processed privately did not remain private. It still shaped my attention, decisions, moods, and availability.
+The danger is not simply boredom. I am not uninterested in my wife. Rather, I have become fluent in her.
 
-> I was at risk of treating her as already known, while remaining insufficiently knowable myself.
+In many ways, such fluency can produce care: anticipation, shorthand, shared rhythms, the ability to understand without explanation. But on otherhand, fluency can become autocomplete. You begin generating the rest of the sentence rather than hearing how this telling may differ from the previous one. My accumulated knowledge of my wife had become efficient enough to compete with her actual presence.
 
-My familiarity with her had begun to close inquiry. My privacy had never given her the same chance to become familiar with me. I think this asymmetry explains why her desire for romantic expression was about more than just praise or public eloquence. The open letter demonstrated that a rich emotional and interpretive life existed within me: I could articulate my relationship with cycling profoundly and publicly, and everyone was invited to take part. But from her perspective, the essay revealed that I possess an interior language she does not regularly receive. She was just asking for better access.
+> Familiarity makes love possible. It can also make attention seem unnecessary.
+
+The open letter about cycling may have revealed this imbalance more clearly than either of us expected. Cycling was still something I was actively interpreting. I was trying to understand what it meant to me, what its absence had exposed, and why losing access to it had destabilized so much of my life. Because I did not fully understand it, I observed it closely enough to write about it.
+
+My wife, by contrast, felt known. Perhaps too known.
+
+I had years of accumulated evidence about what our relationship meant. I trusted its strength. I knew her patterns. I knew our history. I did not feel the same urgency to translate it into language because I believed its meaning was already established.
 
 What she experienced was the absence of equivalent language directed toward our marriage. Her concern was not necessarily that I lacked love. It was that my love had become less visible because familiarity made expression seem less necessary. What she didn't realize was that dialogue is running through my head everyday. I just didn't take enough time to write it out and elaborate it vocally to her.
 
-Cycling still required interpretation. I was still actively discovering what it meant to me, and my injury forced a separation from it that amplified that train of thought enough to write about it.
+I am not naturally expressive. I process most problems, thoughts, and challenges internally. Part of that comes from growing up in a dysfunctional, divorced home that required more independence than I was really capable of carrying. Self-containment became a survival mechanism before it became habitual.
+
+Part of it also comes from the era of masculinity that formed me. I was not supposed to cry. I was not supposed to feel too much. And if I did feel, I was not supposed to make those feelings visible. Expression meant weakness. Need meant dependence. The safest inner life was one processed privately.
+
+I know those lessons are wrong. Knowing has not made them easy to unlearn.
+
+My wife has supplied enough raw material for me to build an extensive archive of her interior life. I have not always offered her the same access to mine. She lets me hear thoughts while they are still tangled. I often disappear into the squiggle alone.
+
+By the time I speak, I may have converted uncertainty into a conclusion, a decision, a declaration, or an essay. She receives the right side of the drawing without witnessing much of the left.
+
+> I was at risk of treating her as already known, while remaining insufficiently knowable myself.
+
+My familiarity with her had begun to close inquiry. My privacy had never given her the same chance to become familiar with me. I think this asymmetry explains why her desire for romantic expression was about more than just praise or public eloquence. The open letter demonstrated that a rich emotional and interpretive life existed within me: I could articulate my relationship with cycling profoundly and publicly, and everyone was invited to take part. But from her perspective, the essay revealed that I possess an interior language she does not regularly receive directly. She was just asking for better access.
 
 I must remain open to discovering who she is becoming.
 I must let myself be discovered before I am finished becoming.
