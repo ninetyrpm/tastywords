@@ -8,8 +8,8 @@ subtitle: "On marriage, uncertainty, and the unfinished work of knowing one anot
 eyebrow: Personal Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
-status: published
-publishedDate: 2026-08-07
+status: draft
+publishedDate: ''
 ---
 
 ### The Design Squiggle
@@ -113,7 +113,7 @@ Marriage binds two people together before either has finished becoming. For thos
 
 Injury, grief, aging parents, changing careers, new ambitions, and changing identities can cause the line to widen again without invalidating everything that came before.
 
-Commitment is not the end of development. It is the promise to remain when the line tangles again. The relationship continues while both people keep changing.
+Commitment is not the end of development. It is the promise to remain engaged when the line tangles again. The relationship continues while both people keep changing.
 
 ---
 
