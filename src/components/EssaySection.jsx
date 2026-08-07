@@ -1,9 +1,32 @@
 import WheelMarker from './WheelMarker';
 
 function InlineText({ text }) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|_[^_]+_)/g).filter(Boolean);
+  const parts = text
+    .split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*|_[^_]+_)/g)
+    .filter(Boolean);
 
   return parts.map((part, index) => {
+    const linkMatch = part.match(/^\[([^\]]+)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)$/);
+
+    if (linkMatch) {
+      const [, label, href, title] = linkMatch;
+      const isExternal = /^(https?:)?\/\//i.test(href);
+
+      return (
+        <a
+          className="essay-link"
+          href={href}
+          key={`${href}-${index}`}
+          title={title || undefined}
+          {...(isExternal
+            ? { target: '_blank', rel: 'noopener noreferrer' }
+            : {})}
+        >
+          <InlineText text={label} />
+        </a>
+      );
+    }
+
     if (part.startsWith('**') && part.endsWith('**')) {
       return <strong key={`${part}-${index}`}>{part.slice(2, -2)}</strong>;
     }

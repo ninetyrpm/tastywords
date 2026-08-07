@@ -167,6 +167,20 @@ h1 {
   padding: 0 0 12rem;
 }
 
+.essay-link {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 42%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  transition: text-decoration-color 160ms ease;
+}
+
+.essay-link:hover,
+.essay-link:focus-visible {
+  text-decoration-color: currentColor;
+}
+
 section p {
   margin: 0 0 1.35rem;
 
