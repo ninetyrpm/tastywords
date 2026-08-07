@@ -249,7 +249,11 @@ export default function WriterPage() {
 
           <label className="writer-body-label" htmlFor="essay-body">
             Essay Markdown
-            <span>Use &gt; for pulls; &gt; **EDITORIAL NOTE:** for notes; &gt; **EDIT NEEDED:** to flag revisions; --- for section breaks; ### for section titles; - for stacked lists; and ![Alt text](/images/file.png){border wide} for images. Available image modifiers are border, wide, compact, and dark. Put an italic paragraph immediately after an image to use it as a caption.</span>
+            <span>
+              Use &gt; for pulls; &gt; **EDITORIAL NOTE:** for notes; &gt; **EDIT NEEDED:** to flag revisions; --- for section breaks; ### for section titles; - for stacked lists; and{' '}
+              <code>{'![Alt text](/images/file.png){border wide}'}</code>{' '}
+              for images. Available image modifiers are border, wide, compact, and dark. Put an italic paragraph immediately after an image to use it as a caption.
+            </span>
           </label>
           <textarea
             id="essay-body"
