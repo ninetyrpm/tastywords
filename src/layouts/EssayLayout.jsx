@@ -27,6 +27,7 @@ export default function EssayLayout({ essay }) {
         readingMinutes={readingMinutes}
         heroRef={heroRef}
         onRead={scrollToEssay}
+        showHomeLink
       />
 
       <ReadingProgress

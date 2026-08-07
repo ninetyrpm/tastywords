@@ -115,6 +115,16 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <footer className="home-footer">
+        <a
+          href="https://www.instagram.com/ninetyrpm/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @ninetyrpm
+        </a>
+      </footer>
     </main>
   );
 }

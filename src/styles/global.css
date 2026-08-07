@@ -143,6 +143,28 @@ h1 {
   }
 }
 
+/* Essay navigation */
+
+.essay-home-link {
+  position: absolute;
+  top: max(1.15rem, env(safe-area-inset-top));
+  left: max(1.2rem, env(safe-area-inset-left));
+  z-index: 11;
+  color: var(--muted);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  opacity: 0.62;
+  transition: color 160ms ease, opacity 160ms ease;
+}
+
+.essay-home-link:hover,
+.essay-home-link:focus-visible {
+  color: var(--accent);
+  opacity: 1;
+}
+
 /* Reading progress */
 
 .reading-time {
@@ -285,6 +307,22 @@ section p {
   font-size: 0.72rem;
   letter-spacing: 0.04em;
   color: var(--muted);
+}
+
+.signature-instagram {
+  color: var(--muted);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.035em;
+  text-decoration: none;
+  opacity: 0.68;
+  transition: color 160ms ease, opacity 160ms ease;
+}
+
+.signature-instagram:hover,
+.signature-instagram:focus-visible {
+  color: var(--accent);
+  opacity: 1;
 }
 
 /* Mobile */
@@ -722,6 +760,7 @@ section p {
   letter-spacing: -0.045em;
   font-weight: 500;
   text-transform: lowercase;
+  color: var(--accent);
 }
 
 .home-index {
@@ -805,6 +844,26 @@ section p {
   color: var(--muted);
   font-family: Inter, system-ui, sans-serif;
   font-size: 0.75rem;
+}
+
+.home-footer {
+  margin-top: clamp(4.5rem, 9vw, 7rem);
+  text-align: center;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.7rem;
+}
+
+.home-footer a {
+  color: var(--muted);
+  text-decoration: none;
+  opacity: 0.55;
+  transition: color 160ms ease, opacity 160ms ease;
+}
+
+.home-footer a:hover,
+.home-footer a:focus-visible {
+  color: var(--accent);
+  opacity: 0.9;
 }
 
 @media (max-width: 620px) {
