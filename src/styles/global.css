@@ -692,3 +692,9 @@ section p {
 .writer-preview em {
   font-style: italic;
 }
+
+/* Match the published essay typography inside both writer previews. */
+.writer-preview,
+.writer-preview .letter {
+  font-family: 'Source Serif 4', Georgia, serif;
+}
