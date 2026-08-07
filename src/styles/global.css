@@ -685,3 +685,10 @@ section p {
   margin-bottom: 2.5rem;
 }
 
+
+/* Inline Markdown emphasis */
+
+.letter em,
+.writer-preview em {
+  font-style: italic;
+}

@@ -1,45 +1,61 @@
 import WheelMarker from './WheelMarker';
 
+const INLINE_MARKDOWN_PATTERN =
+  /(\[([^\]]+)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)|\*\*([^*]+)\*\*|__([^_]+)__|\*([^*\n]+)\*|_([^_\n]+)_)/g;
+
 function InlineText({ text }) {
-  const parts = text
-    .split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*|\*[^*]+\*|_[^_]+_)/g)
-    .filter(Boolean);
+  const nodes = [];
+  let cursor = 0;
+  let match;
 
-  return parts.map((part, index) => {
-    const linkMatch = part.match(/^\[([^\]]+)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)$/);
+  INLINE_MARKDOWN_PATTERN.lastIndex = 0;
 
-    if (linkMatch) {
-      const [, label, href, title] = linkMatch;
+  while ((match = INLINE_MARKDOWN_PATTERN.exec(text)) !== null) {
+    if (match.index > cursor) {
+      nodes.push(text.slice(cursor, match.index));
+    }
+
+    const [raw, , linkLabel, href, linkTitle, boldAsterisk, boldUnderscore, italicAsterisk, italicUnderscore] = match;
+    const key = `${match.index}-${raw}`;
+
+    if (linkLabel !== undefined) {
       const isExternal = /^(https?:)?\/\//i.test(href);
 
-      return (
+      nodes.push(
         <a
           className="essay-link"
           href={href}
-          key={`${href}-${index}`}
-          title={title || undefined}
+          key={key}
+          title={linkTitle || undefined}
           {...(isExternal
             ? { target: '_blank', rel: 'noopener noreferrer' }
             : {})}
         >
-          <InlineText text={label} />
-        </a>
+          <InlineText text={linkLabel} />
+        </a>,
+      );
+    } else if (boldAsterisk !== undefined || boldUnderscore !== undefined) {
+      nodes.push(
+        <strong key={key}>
+          <InlineText text={boldAsterisk ?? boldUnderscore} />
+        </strong>,
+      );
+    } else {
+      nodes.push(
+        <em key={key}>
+          <InlineText text={italicAsterisk ?? italicUnderscore} />
+        </em>,
       );
     }
 
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={`${part}-${index}`}>{part.slice(2, -2)}</strong>;
-    }
+    cursor = match.index + raw.length;
+  }
 
-    if (
-      (part.startsWith('*') && part.endsWith('*')) ||
-      (part.startsWith('_') && part.endsWith('_'))
-    ) {
-      return <em key={`${part}-${index}`}>{part.slice(1, -1)}</em>;
-    }
+  if (cursor < text.length) {
+    nodes.push(text.slice(cursor));
+  }
 
-    return part;
-  });
+  return nodes;
 }
 
 function Paragraph({ text, kind, asset }) {
@@ -47,26 +63,44 @@ function Paragraph({ text, kind, asset }) {
     return (
       <div className="stacked">
         {text.split('\n').map((line) => (
-          <span key={line}><InlineText text={line} /></span>
+          <span key={line}>
+            <InlineText text={line} />
+          </span>
         ))}
       </div>
     );
   }
 
   if (kind === 'pull') {
-    return <p className="pull"><InlineText text={text} /></p>;
+    return (
+      <p className="pull">
+        <InlineText text={text} />
+      </p>
+    );
   }
 
   if (kind === 'section-title') {
-    return <h2 className="section-title"><InlineText text={text} /></h2>;
+    return (
+      <h2 className="section-title">
+        <InlineText text={text} />
+      </h2>
+    );
   }
 
   if (kind === 'editorial-note') {
-    return <aside className="editorial-note"><InlineText text={text} /></aside>;
+    return (
+      <aside className="editorial-note">
+        <InlineText text={text} />
+      </aside>
+    );
   }
 
   if (kind === 'edit-flag') {
-    return <aside className="edit-flag"><InlineText text={text} /></aside>;
+    return (
+      <aside className="edit-flag">
+        <InlineText text={text} />
+      </aside>
+    );
   }
 
   if (kind === 'image' && asset) {
@@ -77,7 +111,12 @@ function Paragraph({ text, kind, asset }) {
     return (
       <figure className={`essay-figure ${modifierClasses}`.trim()}>
         <div className="essay-figure-frame">
-          <img src={asset.src} alt={asset.alt} title={asset.title} loading="lazy" />
+          <img
+            src={asset.src}
+            alt={asset.alt}
+            title={asset.title}
+            loading="lazy"
+          />
         </div>
         {asset.caption && (
           <figcaption className="essay-caption">
@@ -88,7 +127,11 @@ function Paragraph({ text, kind, asset }) {
     );
   }
 
-  return <p><InlineText text={text} /></p>;
+  return (
+    <p>
+      <InlineText text={text} />
+    </p>
+  );
 }
 
 export default function EssaySection({ section, isLast }) {
