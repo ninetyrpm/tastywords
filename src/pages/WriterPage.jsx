@@ -4,6 +4,8 @@ import useDocumentMetadata from '../hooks/useDocumentMetadata';
 import { essays, getEssaySourceBySlug } from '../content/essays';
 import { parseEssayDocument, parseEssayMarkdown } from '../content/essays/parseEssay';
 
+const IMAGE_SYNTAX_HELP = '![Alt text](/images/file.png)' + '{border wide}';
+
 const EMPTY_FORM = {
   slug: '',
   plainTitle: '',
@@ -251,7 +253,7 @@ export default function WriterPage() {
             Essay Markdown
             <span>
               Use &gt; for pulls; &gt; **EDITORIAL NOTE:** for notes; &gt; **EDIT NEEDED:** to flag revisions; --- for section breaks; ### for section titles; - for stacked lists; and{' '}
-              <code>{'![Alt text](/images/file.png){border wide}'}</code>{' '}
+              <code>{IMAGE_SYNTAX_HELP}</code>{' '}
               for images. Available image modifiers are border, wide, compact, and dark. Put an italic paragraph immediately after an image to use it as a caption.
             </span>
           </label>
