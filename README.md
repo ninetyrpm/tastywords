@@ -209,3 +209,20 @@ Available modifiers are `border`, `wide`, `compact`, and `dark`. `wide` and `com
 
 *Damien Newman’s Design Squiggle.*
 ```
+
+## Essay status
+
+Each Markdown essay can include two homepage fields in front matter:
+
+```yaml
+status: draft
+publishedDate: 2026-08-07
+```
+
+Supported status values are:
+
+- `published` — appears on the homepage and remains available at its slug URL.
+- `draft` — available at its slug URL but unlisted from the homepage.
+- `archived` — finalized and available at its slug URL, but unlisted from the homepage.
+
+New essays created in `/write` default to `draft`. The homepage uses `publishedDate` for date display and sorting.

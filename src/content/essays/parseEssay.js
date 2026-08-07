@@ -188,5 +188,18 @@ export function parseEssayMarkdown(source, filename = 'essay.md') {
     throw new Error(`${filename} does not contain any essay content.`);
   }
 
-  return { ...data, sections };
+  const status = String(data.status ?? 'draft').toLowerCase();
+  const allowedStatuses = new Set(['published', 'draft', 'archived']);
+
+  if (!allowedStatuses.has(status)) {
+    throw new Error(
+      `${filename} has invalid front matter status: ${data.status}. Use published, draft, or archived.`,
+    );
+  }
+
+  if (status === 'published' && !data.publishedDate) {
+    throw new Error(`${filename} is published but is missing publishedDate.`);
+  }
+
+  return { ...data, status, sections };
 }

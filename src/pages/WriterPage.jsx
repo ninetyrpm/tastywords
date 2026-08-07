@@ -14,6 +14,8 @@ const EMPTY_FORM = {
   eyebrow: 'Essay',
   signature: 'Ken',
   dateline: 'Louisville, Kentucky · August 2026',
+  status: 'draft',
+  publishedDate: '',
   closing: '',
   body: '',
 };
@@ -43,6 +45,8 @@ function buildSource(form) {
     `eyebrow: ${yamlValue(form.eyebrow.trim() || 'Essay')}`,
     `signature: ${yamlValue(form.signature.trim() || 'Ken')}`,
     `dateline: ${yamlValue(form.dateline.trim())}`,
+    `status: ${yamlValue(form.status || 'draft')}`,
+    `publishedDate: ${yamlValue(form.publishedDate.trim())}`,
   ];
 
   if (form.closing.trim()) {
@@ -63,6 +67,8 @@ function formFromSource(source) {
     eyebrow: data.eyebrow ?? 'Essay',
     signature: data.signature ?? 'Ken',
     dateline: data.dateline ?? '',
+    status: data.status ?? 'draft',
+    publishedDate: data.publishedDate ?? '',
     closing: data.closing ?? '',
     body,
   };
@@ -127,7 +133,21 @@ export default function WriterPage() {
 
   function updateField(event) {
     const { name, value } = event.target;
-    setForm((current) => ({ ...current, [name]: value }));
+
+    setForm((current) => {
+      if (name === 'status' && value === 'published' && !current.publishedDate) {
+        const today = new Date();
+        const localDate = [
+          today.getFullYear(),
+          String(today.getMonth() + 1).padStart(2, '0'),
+          String(today.getDate()).padStart(2, '0'),
+        ].join('-');
+
+        return { ...current, status: value, publishedDate: localDate };
+      }
+
+      return { ...current, [name]: value };
+    });
   }
 
   function loadEssay(event) {
@@ -166,7 +186,14 @@ export default function WriterPage() {
       setStatus('Enter the publishing password.');
       return;
     }
-    if (!window.confirm(`Publish /${form.slug} directly to production?`)) return;
+    const visibilityMessage =
+      form.status === 'published'
+        ? 'This essay will appear on the tastywords homepage.'
+        : form.status === 'archived'
+          ? 'This essay will remain available at its URL but will not appear on the homepage.'
+          : 'This draft will remain available at its URL but will not appear on the homepage.';
+
+    if (!window.confirm(`Publish /${form.slug} directly to production?\n\n${visibilityMessage}`)) return;
 
     setIsPublishing(true);
     setStatus('Publishing…');
@@ -202,7 +229,7 @@ export default function WriterPage() {
           <p className="writer-status" aria-live="polite">{status || 'Ready'}</p>
         </div>
         <div className="writer-actions">
-          <select aria-label="Load a published essay" defaultValue="" onChange={loadEssay}>
+          <select aria-label="Load essay" defaultValue="" onChange={loadEssay}>
             <option value="" disabled>Load essay…</option>
             {essays.map((essay) => (
               <option key={essay.slug} value={essay.slug}>{essay.plainTitle}</option>
@@ -247,6 +274,25 @@ export default function WriterPage() {
               Dateline
               <input name="dateline" value={form.dateline} onChange={updateField} />
             </label>
+            <div className="writer-field-row">
+              <label>
+                Status
+                <select name="status" value={form.status} onChange={updateField}>
+                  <option value="draft">Draft</option>
+                  <option value="published">Published</option>
+                  <option value="archived">Archived</option>
+                </select>
+              </label>
+              <label>
+                Publication date
+                <input
+                  type="date"
+                  name="publishedDate"
+                  value={form.publishedDate}
+                  onChange={updateField}
+                />
+              </label>
+            </div>
           </div>
 
           <label className="writer-body-label" htmlFor="essay-body">

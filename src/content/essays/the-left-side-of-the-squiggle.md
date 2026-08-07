@@ -8,6 +8,8 @@ subtitle: "On marriage, uncertainty, and the unfinished work of knowing one anot
 eyebrow: Personal Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
+status: published
+publishedDate: 2026-08-07
 ---
 
 ### The Design Squiggle

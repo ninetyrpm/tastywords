@@ -8,6 +8,8 @@ subtitle: On injury, identity, community, and what remains after the bike is put
 eyebrow: Open Letter
 signature: Ken
 dateline: Louisville, Kentucky · August 2026
+status: published
+publishedDate: 2026-08-06
 ---
 
 Four weeks ago, during the Hyde Park Blast criterium, I crashed hard enough to break seven ribs and snap my clavicle. A titanium plate now holds my shoulder together, and my recovery will be measured not in miles, but in weeks.
