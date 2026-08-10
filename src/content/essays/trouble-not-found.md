@@ -273,7 +273,7 @@ I cannot tell you what it feels like to survive it. I cannot tell you what it do
 
 Those experiences aren't mine. I don't want proximity to someone else's pain to masquerade as authority over it.  So I had to think long and hard about why I felt compelled to write about any of this publicly.
 
-Proximity has an experience of its own.
+> Proximity has an experience of its own.
 
 I have watched what this kind of knowledge can do to people I care about. I have watched its weight move through friendships and relationships, altering how people understand one another and how safely they feel able to exist within a community they share.
 
