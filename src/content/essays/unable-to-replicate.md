@@ -11,7 +11,9 @@ status: draft
 publishedDate: ''
 ---
 
-**Content note:** This essay discusses sexual abuse and sexual misconduct, including the social response to allegations. It does not contain graphic descriptions. However, please consider browsing my [other essays](/http://tastywords.vercel.app) if you prefer not to engage with this topic.
+### CONTENT NOTE
+
+This essay discusses sexual abuse and sexual misconduct, including the social response to allegations. It does NOT contain graphic descriptions or reenactments. However, please consider browsing my [other essays](/http://tastywords.vercel.app) if you prefer not to engage with this topic.
 
 ---
 
