@@ -208,27 +208,22 @@ We want one version to invalidate the other. So reputation stops being what is u
 
 This is another reason I keep returning to the difference between *racist* and *rapist*.
 
-We have developed language that lets us separate racist conduct from total identity.  A person can say something racist without everyone needing to determine, immediately and permanently, whether that person truly is a racist. We can discuss bias, ignorance, stereotypes, racist outcomes, discriminatory behavior, intent and impact. 
-There are intermediate categories.
+We have developed language that lets us separate racist conduct from total identity.  A person can say something racist without everyone needing to determine, immediately and permanently, whether that person truly is a racist. We can discuss bias, ignorance, stereotypes, racist outcomes, discriminatory behavior, intent and impact. There are intermediate categories. However imperfectly, the language gives us somewhere to put the conduct while we decide what it means about the person.
 
-However imperfectly, the language gives us somewhere to put the conduct while we decide what it means about the person. Sexual violence often feels linguistically more binary. 
-If someone committed rape, the noun arrives almost automatically.
+Sexual violence often feels linguistically more binary. If someone committed rape, the title arrives almost automatically.
 
 Rapist.
 
-And "rapist" feels totalizing.
-
-It does not merely describe something someone did. It threatens to become the most important thing we know about them.
-Perhaps that is appropriate.
+And "rapist" feels totalizing. It does not merely describe something someone did. It threatens to become the most important thing we know about them. Perhaps that is appropriate.
 
 But it may also help explain the extraordinary resistance at the threshold. Accepting the act appears to require accepting the identity. 
-So instead, we often hover permanently before the title.
+So instead, we often hover hesitantly before the word, tempering it with phrases like:
 
 * An allegation
 
 * An accusation
 
-* A story
+* An unfortunate story
 
 * A misunderstanding
 
@@ -236,7 +231,7 @@ So instead, we often hover permanently before the title.
 
 * A complicated situation
 
-The language grows softer as the conduct grows worse.
+The language often grows softer as the conduct grows worse.
 
 ---
 
