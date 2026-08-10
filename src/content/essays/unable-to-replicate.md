@@ -11,6 +11,10 @@ status: draft
 publishedDate: ''
 ---
 
+**Content note:** This essay discusses sexual abuse and sexual misconduct, including the social response to allegations. It does not contain graphic descriptions. However, please consider browsing my [other essays](/http://tastywords.vercel.app) if you prefer not to engage with this topic.
+
+---
+
 ### Failure to Repeat Failure
 
 There is a phrase engineers use when something goes wrong but refuses to go wrong again.
@@ -51,21 +55,21 @@ The easiest problems to act upon are therefore not necessarily the most dangerou
 
 A cosmetic defect can command an entire meeting because twelve people can stand around a table and look at it. But a potentially serious intermittent failure can linger for months because nobody can get the damn thing to happen again.
 
-That doesn't mean engineers don't believe customers. Good ones take anecdotal failures seriously, particularly when the consequence is severe. But institutions have an understandable appetite for reproducibility. Reproducibility turns uncertainty into something actionable. 
-It gives everyone permission to believe.
+That doesn't mean engineers don't believe customers. Good ones take anecdotal failures seriously, particularly when the consequence is severe. But institutions have an understandable appetite for reproducibility. Reproducibility turns uncertainty into something actionable. It gives everyone permission to believe.
 
 And, perhaps more importantly, permission to do something about it.
 
 [**PERSONAL INSERT:** A real product-development example would strengthen this enormously. Ideally something harmless enough to discuss publicly: a field complaint that was initially difficult to reproduce but later turned out to be real. The important detail isn't the product—it is how differently the organization behaved before and after the failure became observable.]
 
-There is a danger in this way of thinking. 
-We begin to confuse **reproducibility with reality**.
+There is a danger in this way of thinking. We begin to confuse **reproducibility with reality**.
 
 The thing we can demonstrate feels more real than the thing somebody merely experienced. But of course the machine does not care whether an engineer was watching when it failed. It either failed or it didn't. Our ability to observe it is a different question.
 
 I have been wondering lately how often we make the same mistake with people.
 
 ---
+
+### The Accumulation of Character
 
 I wasn't actually thinking about appliances when I started thinking about this.
 
@@ -93,14 +97,15 @@ We accumulate information.
 * Someone treats every friendship as an audience.
 * Someone picks fights.
 
-Eventually we stop describing incidents and begin describing a person.
-No courtroom is convened. No single episode must prove the case beyond a reasonable doubt. Character emerges from accumulation.
+Eventually we stop describing incidents and begin describing a person. No courtroom is convened. No single episode must prove the case beyond a reasonable doubt. Character emerges from accumulation.
 
 Then someone tells you something much more serious...
 
 And suddenly the rules change.
 
 ---
+
+### The Threshold of Certainty
 
 During this conversation, someone made an observation that has stuck with me.
 
@@ -113,10 +118,9 @@ The difference I find interesting comes earlier than punishment.
 
 It concerns what we allow ourselves to **know**.
 
-Imagine someone makes a racist remark in public. 
-There may be a recording. A post. A screenshot. Twenty people sitting around the table.
+Imagine someone makes a racist remark in public. There may be a recording. A post. A screenshot. Twenty people sitting around the table.
 
-We can argue about whether the statement was actually racist. We can argue about intent, context, ignorance, malice, proportionality, politics, language. But frequently everyone is arguing about the meaning of the same observable thing. The evidence exists.
+We can argue about whether the statement was actually racist. We can argue about intent, context, ignorance, malice, proportionality, politics, and language. But inevitably, everyone is arguing about the meaning of the same observable thing. The evidence exists.
 
 Sexual abuse frequently presents society with the opposite problem.
 
@@ -135,15 +139,11 @@ The person is the record. And suddenly our standards for what counts as knowledg
 * Could they be lying?
 * What proof is there?
 
-Some skepticism is necessary. Serious accusations deserve serious consideration, including consideration of the person being accused. 
-But there is a strange consequence to that principle.
+Some skepticism is necessary. Serious accusations deserve serious consideration, including consideration of the person being accused. But there is a strange consequence to that principle.
 
-Sometimes **the seriousness of the accusation increases the amount of certainty we require before allowing ourselves to believe it.** 
-The worse the alleged act, the higher the epistemological wall.
+Sometimes **the seriousness of the accusation increases the amount of certainty we require before allowing ourselves to believe it.** The worse the alleged act, the higher the epistemological wall.
 
-And because many forms of sexual abuse happen precisely where independent witnesses are absent, the acts carrying the greatest moral weight can be among the hardest to convert into social knowledge. Frustratingly, we are:
-
-* Unable to replicate.
+And because many forms of sexual abuse happen precisely where independent witnesses are absent, the acts carrying the greatest moral weight can be among the hardest to convert into social knowledge. Frustratingly, we are **unable to replicate.**
 
 ---
 
@@ -160,8 +160,8 @@ We decide whom to trust. We notice patterns. We weigh credibility. We revise our
 That difference can masquerade as neutrality.
 
 * I wasn't there.
-* I don't know what happened.*
-* There are two sides.
+* I don't know what happened.
+* There are two sides to the story.
 
 These statements may all be literally true, but neutrality is not the absence of a decision. Sometimes neutrality means preserving the social arrangement that existed before the allegation.
 
@@ -171,7 +171,7 @@ If nobody has technically chosen a side, everything simply continues as before.
 
 ---
 
-### The Threshold of Repute
+### The Weight of Repute
 
 Ordinarily, reputation is the thing new information changes. 
 But with accusations of sexual misconduct, reputation often becomes evidence against the new information.
