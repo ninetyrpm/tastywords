@@ -281,11 +281,11 @@ And I have felt what that proximity does to me.
 
 I want to do something. I want justice. I want resolution. Or at least whatever those words could responsibly mean from where I am standing.
 
-I want the ambiguity to collapse into something definite enough that everybody knows what should happen next. I want the clarity of an engineer setting a defective unit on the workbench and saying "Look. There's the problem. We can fix it."
+I want the ambiguity to give way to something definite enough that everybody knows what should happen next. I want the clarity of an engineer setting a defective unit on the workbench and saying "Look. There's the problem. We can fix it."
 
 But people are not appliances. There is no workbench. There may never be definitive evidence capable of giving everyone identical knowledge and leading everyone to the same conclusion.
 
-Wanting justice does not give me ownership of someone's harm. It is not my experience to narrate or my outcome to dictate. But that doesn't mean I am standing outside of it.
+Wanting justice does not give me ownership of someone's harm. It is not my experience to narrate or my outcome to dictate. But that doesn't mean I am living outside of it.
 
 There are people who end up standing at the edge of someone else's trauma: close enough that it changes them, but not so close that they can claim the experience as their own.
 
