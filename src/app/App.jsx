@@ -1,5 +1,6 @@
 import { Analytics } from '@vercel/analytics/react';
 import { Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import HomePage from '../pages/HomePage';
 import EssayPage from '../pages/EssayPage';
 import WriterPage from '../pages/WriterPage';
