@@ -325,6 +325,28 @@ section p {
   opacity: 1;
 }
 
+.signature-support {
+  margin-top: 2.4rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid color-mix(in srgb, var(--hairline) 70%, transparent);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.045em;
+}
+
+.signature-support a {
+  color: var(--muted);
+  text-decoration: none;
+  opacity: 0.48;
+  transition: color 160ms ease, opacity 160ms ease;
+}
+
+.signature-support a:hover,
+.signature-support a:focus-visible {
+  color: var(--accent);
+  opacity: 0.88;
+}
+
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -847,10 +869,19 @@ section p {
 }
 
 .home-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
   margin-top: clamp(4.5rem, 9vw, 7rem);
   text-align: center;
   font-family: Inter, system-ui, sans-serif;
   font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.home-footer > span {
+  opacity: 0.35;
 }
 
 .home-footer a {

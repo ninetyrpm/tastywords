@@ -124,6 +124,14 @@ export default function HomePage() {
         >
           @ninetyrpm
         </a>
+        <span aria-hidden="true">·</span>
+        <a
+          href="https://ko-fi.com/F1F8WHY47"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          support tastywords
+        </a>
       </footer>
     </main>
   );
