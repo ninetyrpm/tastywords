@@ -100,6 +100,8 @@ A year of work becomes a self-review, a performance rating, a talent category, a
 
 * Areas of opportunity: somehow always present.
 
+The institution might object that it is not evaluating the person, only the performance. However, that distinction gets harder to maintain once the system moves beyond what someone did into what kind of performer they are, what potential they possess, whether they are ready, where they belong, and what opportunities should follow. At that point, the abstraction no longer summarizes the work. It begins to govern the worker.
+
 At first, the analogy seems almost too neat. Product reviews compress experience into stars. Talent reviews compress people into rubrics. Both discard context to create comparability. Both turn something complicated into something portable. Both become useful by becoming incomplete. Now this person can be compared with that person.
 
 But the moral stakes are not the same.
@@ -120,7 +122,11 @@ That is the second asymmetry:
 
 > The employee is asked to care like a maker. The corporation judges them like a product.
 
-This is why the comparison to product reviews is useful but not morally equivalent. A product user’s distance is honest because no mutual relationship was promised. The corporation’s distance is dishonest because mutuality is part of the pitch. It wants the surplus value of human care while preserving the right to evaluate that care through systems barely capable of recognizing it.
+This is why the comparison to product reviews is useful but not morally equivalent. A product user’s distance is honest because no mutual relationship was promised. The corporation’s distance is dishonest because mutuality is part of the pitch. It captures the benefits of human care while preserving the right to evaluate that care through systems barely capable of recognizing it.
+
+---
+
+### Collaborating in Your Own Reduction
 
 Anyone who has participated in a formal self-review knows the weirdness of this ritual. You are asked to narrate your own year in the language the institution can process. You take months of work, shifting priorities, quiet favors, abandoned experiments, invisible mentoring, mistakes recovered from before anyone noticed, difficult circumstances, changed goals, interpersonal repair, judgment calls, and unglamorous competence, and you convert them into accomplishments, metrics, competencies, growth areas, and impact statements.
 
@@ -138,7 +144,7 @@ Care remains culturally encouraged but structurally subordinate. It can soften t
 
 This is usually defended as fairness, consistency, calibration, rigor, or maturity. The implication is that relationship is nice but suspect, while abstraction is serious and neutral. A manager’s direct knowledge is bias. A rubric is objectivity. A conversation is anecdote. A rating is data.
 
-This is a very convenient belief for institutions that have made themselves too large to understand people except through summaries.The corporation first creates the conditions under which human context becomes administratively inconvenient, then calls its removal necessary. That is not neutrality. That is architecture pretending to be weather.
+This is a very convenient belief for institutions that have made themselves too large to understand people except through summaries. The corporation first creates the conditions under which human context becomes administratively inconvenient, then calls its removal necessary. That is not neutrality. That is architecture pretending to be weather.
 
 Of course organizations need to make decisions. Of course comparison is hard. Of course informal systems can reproduce favoritism, opacity, old loyalties, personality contests, and the timeless corporate principle that the person most confident in a meeting must be onto something. A small team is not automatically humane because it has fewer forms. Context can protect people, but it can also hide unfairness.
 
@@ -146,11 +152,15 @@ Abstraction is not automatically justice, though. A standardized process can lau
 
 Relationship is not the enemy of fairness. Sometimes relationship is the only place context survives.
 
+---
+
+### Close Enough to Know
+
 I did not always understand this as clearly as I do now. Earlier in my career, formal review processes felt like one of those unpleasant but apparently inevitable adult rituals, somewhere between tax withholding and pretending to understand health insurance. You filled out the form. You translated yourself into the categories. You tried to sound honest but not self-sabotaging, confident but not delusional, growth-oriented but not incompetent, ambitious but not threatening, reflective but not in a way that would create extra work for anyone.
 
 Then, for several years, I worked in a context where that machinery felt distant. Not absent because everyone had transcended management and joined hands in a post-bureaucratic meadow. Not perfect because small teams create their own distortions. But close enough, or small enough, that context still had somewhere to live.
 
-Work was discussed nearer to where it happened. Contributions did not always need to become portable before they could be understood. The person evaluating the work had often lived close enough to it to remember the conditions around it. A conversation could carry what a form would have flattened.
+The strange thing was that feedback did not become less frequent when the formal ritual receded. It actually became more immediate and harder to conceal performatively. You could not spend eleven months being unknowable and then arrive at review season with a tasteful anthology of accomplishments. The work was happening in front of the people who would later have opinions about it, which is both comforting and deeply inconvenient if your preferred leadership style is theatrical invisibility.
 
 I do not want to romanticize informality. It has risks. Uneven standards can hide inside flexibility. Bias can hide inside familiarity. A small team can confuse being known with being understood. Still, once you have worked somewhere small enough for context to survive, it becomes harder to accept its destruction as inevitable. You begin to see the form not merely as a tool, but as a worldview.
 
@@ -166,13 +176,15 @@ The real danger is forgetting that the abstraction is an artifact. It was made b
 
 ---
 
+### What Gets Removed
+
 Context is not decorative. It is not a sentimental add-on to the real information. Context is the material that tells us what a rating cannot: what someone was carrying, what they were asked to solve, what changed around them, what they prevented, what they absorbed, what they made easier for others, what kind of care their work required, and what parts of their contribution never became visible because the point was to keep something from breaking.
 
-This is the part the corporate institution has little incentive to examine honestly. Because once you admit that the abstraction was created by removing context, you also have to admit that the rating is not neutral. It is not the person distilled. It is the person processed. It is a version of the person made useful to power; a power that prefers useful people to fully contextual ones.
+This is the part the corporate institution has little incentive to examine honestly. Because once you admit that the abstraction was created by removing context, you also have to admit that the rating is not neutral. It is not the person distilled. It is the person processed. It is a version of the person made useful for comparison, allocation, and control.
 
 That is why the problem persists. Not because nobody has noticed that annual reviews are awkward, reductive, demoralizing, and occasionally about as developmentally rich as a dentist asking whether you floss. Everyone knows. The jokes are too easy because the ritual is too familiar.
 
-The system does not continue because it is beloved. It continues because it is useful to the people and structures that need employees to become comparable. A fully contextual person is hard to rank. Hard to deny cleanly. Hard to explain away. Hard to move around a spreadsheet. Hard to summarize for leaders who want the gist. Hard to fit into a compensation model built for tidy distinctions between people whose actual work may be tangled together beyond separation.
+The ritual does not continue because it is beloved. It persists because compressed people are easier to compare, rank, reward, deny, move, and explain away. A fully contextual person is harder. That difficulty is not a defect. It is the beginning of respect.
 
 So when corporations describe these systems as necessary, we should listen carefully for what kind of necessity they mean. Necessary for whom? Necessary for what? Necessary because no better arrangement is imaginable, or necessary because the institution has designed itself around forms of distance that now require human beings to be simplified?
 
@@ -186,7 +198,7 @@ The point is not that every review, rating, rubric, or abstraction can be abolis
 
 ---
 
-### When the mechanism is named, the innocence is gone
+### The Choice Beneath the Ritual
 
 A corporation that asks people to care deeply, then insists on understanding them shallowly, is making a choice. A corporation that depends on relationship where work happens, then strips relationship from the places where power is distributed, is making a choice. A corporation that asks employees to compress themselves into forms, goals, ratings, and talent review language, while treating the result as objective, is making a choice. The fact that the choice is normal does not make it less grotesque.
 
