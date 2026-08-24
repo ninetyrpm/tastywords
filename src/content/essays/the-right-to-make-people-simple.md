@@ -30,7 +30,7 @@ A product review takes a lived experience and turns it into a portable judgment.
 
 The loss of information is not a flaw in the system. It is the system.
 
-No one scrolling through product reviews wants an ethnography of someone’s kitchen. They want a signal. Did enough people like this thing? Did it break? Are the controls weird? Does it make a noise described by multiple reviewers as “concerning”? Can I safely ignore the one person who gave it one star because the delivery driver left it in the rain?
+No one scrolling through product reviews wants an ethnographic study of someone’s kitchen. They want a signal. Did enough people like this thing? Did it break? Are the controls weird? Does it make a noise described by multiple reviewers as “concerning”? Can I safely ignore the one person who gave it one star because the delivery driver left it in the rain?
 
 The point is comparability. This oven can be compared with that oven. This smoker can be compared with that smoker. This sourdough device can be compared with the ancient and honorable tradition of forgetting to feed your starter until it smells like regret. The compression is useful because it discards context.
 
@@ -50,7 +50,7 @@ A product has to work without the footnotes.
 
 Still, the footnotes exist.
 
-There is always more behind the object than the object can carry. The feature that survived three redesigns. The feature that did not survive at all. The material that changed because the better one was too expensive, too fragile, too late, or too unavailable. The firmware behavior that seems obvious only because several worse versions died quietly in testing. The safety requirement no one will ever thank you for because its success looks exactly like nothing happening.
+There is always more behind the object than the object can carry. The feature that survived three redesigns. The feature that did not survive at all. The material that changed because the better one was too expensive, too fragile, too late, or too unavailable. The safety requirement no one will ever thank you for because its success looks exactly like nothing happening.
 
 When you help build products, you learn that the shipped thing is not the dream. It is what survived. And for a while, I thought that was why reviews hurt. Years of effort disappeared into a rating. The people disappeared behind the product. Context collapsed so comparison could happen.
 
@@ -58,11 +58,9 @@ All true. But not deep enough.
 
 Because the obvious response is: so what? So what if a customer does not imagine the people behind the product? They bought the product, not a relationship with its development team. They do not owe me curiosity. They do not owe anyone gratitude for the meetings. They do not have to sit quietly for an oral history of manufacturability before saying the thing was too loud, too expensive, too confusing, too ugly, or too much trouble to clean.
 
-The maker’s empathy is part of the work. It is not a debt the user agreed to repay. That is what makes the maker-user asymmetry harsh, but mostly honest. To make something for strangers is to care in advance for people who may never care back. The care has to become use. If it needs to become explanation, something has already gone wrong.
+The maker’s empathy is part of the work. It is not a debt the user agreed to repay. That is what makes the maker-user asymmetry harsh, but mostly honest. To make something for strangers is to care in advance for people who may never care back. The care has to become useful. If it needs to become explanation, something has already gone wrong.
 
-Product work asks you to imagine the user in great detail. The user is allowed to experience the product as if no maker exists at all, That is painful, but it is the bargain.
-
-A product is an object placed between two parties who will probably never meet. The maker imagines a future user’s life; the user eventually decides whether the object helped. The relationship is mediated by the thing. If the thing fails, the user is allowed to say so from the only place they actually occupy: their own experience.
+Product work asks you to imagine the user in great detail. The user is allowed to experience the product as if no maker exists at all, That is painful, but it is the bargain. A product is an object placed between two parties who will probably never meet. The maker imagines a future user’s life; the user eventually decides whether the object helped. The relationship is mediated by the thing. If the thing fails, the user is allowed to say so from the only place they actually occupy: their own experience.
 
 The more I sat with this, the more I realized my reaction to reviews was not just about ego, or effort, or pride in the work. It was about a failed translation of care.
 
@@ -76,7 +74,7 @@ So when someone says the product did not work for them, the professional part of
 
 * I was not cared for.
 
-That is not what most reviewers mean. They are not writing moral philosophy in the “Verified Purchase” field. They are tired, disappointed, annoyed, pleased, or trying to help the next person avoid a mistake. They are doing exactly what the review system asks them to do: compress.
+That is not what most reviewers mean. They are not writing moral philosophy in the “Verified Purchase” review field. They are tired, disappointed, annoyed, pleased, or simply trying to help the next person avoid a mistake. They are doing exactly what the review system asks them to do: compress.
 
 Still, if the work of making was an attempt to care in advance, then disappointment can feel like evidence that the care did not make it through. That was the part I could not fully name in the LinkedIn post.
 
@@ -144,7 +142,9 @@ This is a very convenient belief for institutions that have made themselves too 
 
 Of course organizations need to make decisions. Of course comparison is hard. Of course informal systems can reproduce favoritism, opacity, old loyalties, personality contests, and the timeless corporate principle that the person most confident in a meeting must be onto something. A small team is not automatically humane because it has fewer forms. Context can protect people, but it can also hide unfairness.
 
-Abstraction is not automatically justice. A standardized process can launder subjective judgment into official language. An annual review meeting can make hierarchy feel like reason. A rating can carry the aura of objectivity precisely because the details that would complicate it have already been removed. But relationship is not the enemy of fairness. Sometimes relationship is the only place context survives.
+Abstraction is not automatically justice, though. A standardized process can launder subjective judgment into official language. An annual review meeting can make hierarchy feel like reason. A rating can carry the aura of objectivity precisely because the details that would complicate it have already been removed.
+
+Relationship is not the enemy of fairness. Sometimes relationship is the only place context survives.
 
 I did not always understand this as clearly as I do now. Earlier in my career, formal review processes felt like one of those unpleasant but apparently inevitable adult rituals, somewhere between tax withholding and pretending to understand health insurance. You filled out the form. You translated yourself into the categories. You tried to sound honest but not self-sabotaging, confident but not delusional, growth-oriented but not incompetent, ambitious but not threatening, reflective but not in a way that would create extra work for anyone.
 
@@ -188,7 +188,7 @@ The point is not that every review, rating, rubric, or abstraction can be abolis
 
 ### When the mechanism is named, the innocence is gone
 
-A corporation that asks people to care deeply, then insists on understanding them shallowly, is making a choice. A corporation that depends on relationship where work happens, then strips relationship from the places where power is distributed, is making a choice. A corporation that asks employees to compress themselves into forms, goals, ratings, and talen review language, then treats the result as objective, is making a choice. The fact that the choice is normal does not make it less grotesque.
+A corporation that asks people to care deeply, then insists on understanding them shallowly, is making a choice. A corporation that depends on relationship where work happens, then strips relationship from the places where power is distributed, is making a choice. A corporation that asks employees to compress themselves into forms, goals, ratings, and talent review language, while treating the result as objective, is making a choice. The fact that the choice is normal does not make it less grotesque.
 
 A product may have to work without the footnotes. A person should not have to.
 
