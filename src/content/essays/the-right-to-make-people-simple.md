@@ -60,7 +60,7 @@ Because the obvious response is: so what? So what if a customer does not imagine
 
 The maker’s empathy is part of the work. It is not a debt the user agreed to repay. That is what makes the maker-user asymmetry harsh, but mostly honest. To make something for strangers is to care in advance for people who may never care back. The care has to become useful. If it needs to become explanation, something has already gone wrong.
 
-Product work asks you to imagine the user in great detail. The user is allowed to experience the product as if no maker exists at all, That is painful, but it is the bargain. A product is an object placed between two parties who will probably never meet. The maker imagines a future user’s life; the user eventually decides whether the object helped. The relationship is mediated by the thing. If the thing fails, the user is allowed to say so from the only place they actually occupy: their own experience.
+Product work asks you to imagine the user in great detail. The user is allowed to experience the product as if no maker exists at all. That is painful, but it is the bargain. A product is an object placed between two parties who will probably never meet. The maker imagines a future user’s life; the user eventually decides whether the object helped. The relationship is mediated by the thing. If the thing fails, the user is allowed to say so from the only place they actually occupy: their own experience.
 
 The more I sat with this, the more I realized my reaction to reviews was not just about ego, or effort, or pride in the work. It was about a failed translation of care.
 
@@ -82,7 +82,7 @@ And then, once I had named it, I started noticing the same operation somewhere e
 
 ---
 
-### The machine turns around.
+### The Machine Turns Around
 
 Once a year, in many corporate systems, the product is no longer the thing being compressed.
 
