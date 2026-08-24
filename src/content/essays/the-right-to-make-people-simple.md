@@ -4,7 +4,7 @@ plainTitle: The Right to Make People Simple
 titleLines:
   - The Right to Make
   - People Simple
-subtitle: "On product reviews, talent rubrics, and the institutional violence of compression"
+subtitle: On product reviews and the hidden costs of compression
 eyebrow: Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
@@ -18,7 +18,7 @@ A while ago, I wrote [this LinkedIn post](https://www.linkedin.com/feed/update/u
 
 This was already a suspicious thing to do. LinkedIn is not where I usually go looking for emotional honesty, unless the emotion is gratitude for a recent cross-functional opportunity to leverage strategic alignment. But the post was less about announcing something than trying to explain why a certain kind of review had been bothering me.
 
-Not a catastrophic review. Not a review so unfair it deserved to be printed out, passed around, and burned in a small ceremony like a scene in Office Space. Just an ordinary review. The kind of review that does exactly what reviews are supposed to do, but somehow still hurts in a dispropotionate way, like smacking your funny bone on the table.
+Not a catastrophic review. Not a review so unfair it deserved to be printed out, passed around, and burned in a small ceremony beside the office printer. Just an ordinary review. The kind of review that does exactly what reviews are supposed to do, but somehow still hurts in a disproportionate way, like smacking your funny bone on the table.
 
 * Three stars. Wouldn’t buy again.
 
@@ -36,7 +36,7 @@ The point is comparability. This oven can be compared with that oven. This smoke
 
 In my original post, I was trying to name the brutality of that compression: “Years of work collapse into a star rating.” That still feels true. Product reviews do flatten nuance. They turn a messy encounter between person, object, expectation, price, patience, and circumstance into something legible enough to compare. But the more I have thought about it, the more I think that was only the visible mechanism, not the wound.
 
-Physical products arrive in people’s lives as if no one made them. A restaurant still has visible humans attached to it: a host, a server, a bartender, and a cook you can imagine even if you never see them. But a countertop appliance, a tool, a device, a piece of hardware — these arrive as things. If they work, they become part of the room. If they fail, the disappointment lands on the object, or the brand, or the vaguely sinister cloud labeled “they."
+Physical products arrive in people’s lives as if no one made them. A restaurant still has visible humans attached to it: a host, a server, a bartender, and a cook you can imagine even if you never see them. But a countertop appliance, a tool, a device, a piece of hardware — these arrive as things. If they work, they become part of the room. If they fail, the disappointment lands on the object, or the brand, or the vaguely sinister cloud labeled "they."
 
 * They should have made this better.
 
@@ -64,7 +64,7 @@ Product work asks you to imagine the user in great detail. The user is allowed t
 
 The more I sat with this, the more I realized my reaction to reviews was not just about ego, or effort, or pride in the work. It was about a failed translation of care.
 
-For [Sourdough Sidekick](http://www.sourdoughsidekick.com), the simple version is that the product maintains a sourdough starter. It feeds, monitors, and generally tries to prevent a jar of flour and water from becoming a small countertop cesspool.
+For [Sourdough Sidekick](http://www.sourdoughsidekick.com), the simple version is that the product maintains a sourdough starter. It feeds, monitors, and generally tries to prevent a jar of flour and water from becoming a small countertop biohazard.
 
 But the human version is not really about flour and water. It is about the person who wants the ritual of sourdough but keeps failing the maintenance. The person who likes the idea of being someone who tends to something alive, but also has a job, a family, a phone, a sink full of dishes, and only so much energy to spend on microbial dependents. It is about the “oh crap” moment. The tiny shame of forgetting. The gap between the person you meant to be and the Tuesday night you actually had.
 
@@ -160,7 +160,7 @@ I did not always understand this as clearly as I do now. Earlier in my career, f
 
 Then, for several years, I worked in a context where that machinery felt distant. Not absent because everyone had transcended management and joined hands in a post-bureaucratic meadow. Not perfect because small teams create their own distortions. But close enough, or small enough, that context still had somewhere to live.
 
-The strange thing was that feedback did not become less frequent when the formal ritual receded. It actually became more immediate and harder to conceal performatively. You could not spend eleven months being unknowable and then arrive at review season with a tasteful anthology of accomplishments. The work was happening in front of the people who would later have opinions about it, which is both comforting and deeply inconvenient if your preferred leadership style is theatrical invisibility.
+The strange thing was that feedback did not become less frequent when the forms receded. It actually became more immediate and harder to conceal performatively. You could not spend eleven months being unknowable and then arrive at review season with a tasteful anthology of accomplishments. The work was happening in front of the people who would later have opinions about it, which is both comforting and deeply inconvenient if your preferred leadership style is theatrical invisibility.
 
 I do not want to romanticize informality. It has risks. Uneven standards can hide inside flexibility. Bias can hide inside familiarity. A small team can confuse being known with being understood. Still, once you have worked somewhere small enough for context to survive, it becomes harder to accept its destruction as inevitable. You begin to see the form not merely as a tool, but as a worldview.
 
@@ -180,7 +180,7 @@ The real danger is forgetting that the abstraction is an artifact. It was made b
 
 Context is not decorative. It is not a sentimental add-on to the real information. Context is the material that tells us what a rating cannot: what someone was carrying, what they were asked to solve, what changed around them, what they prevented, what they absorbed, what they made easier for others, what kind of care their work required, and what parts of their contribution never became visible because the point was to keep something from breaking.
 
-This is the part the corporate institution has little incentive to examine honestly. Because once you admit that the abstraction was created by removing context, you also have to admit that the rating is not neutral. It is not the person distilled. It is the person processed. It is a version of the person made useful for comparison, allocation, and control.
+This is the part the institution has little incentive to examine honestly. Because once you admit that the abstraction was created by removing context, you also have to admit that the rating is not neutral. It is not the person distilled. It is the person processed. It is a version of the person made useful for comparison, allocation, and control.
 
 That is why the problem persists. Not because nobody has noticed that annual reviews are awkward, reductive, demoralizing, and occasionally about as developmentally rich as a dentist asking whether you floss. Everyone knows. The jokes are too easy because the ritual is too familiar.
 
@@ -212,4 +212,4 @@ That cannot be softened into a tradeoff. It should be named as a betrayal. And o
 
 The problem is not that people are too complicated to evaluate cleanly.
 
-The problem is that the institution has mistaken its need for cleanliness as a right to make people simple.
+The problem is that the institution has mistaken its need for cleanliness for a right to make people simple.
