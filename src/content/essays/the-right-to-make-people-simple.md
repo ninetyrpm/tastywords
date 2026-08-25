@@ -98,11 +98,11 @@ A year of work becomes a self-review, a performance rating, a talent category, a
 
 * Areas of opportunity: somehow always present.
 
-The institution might object that it is not evaluating the person, only the performance. However, that distinction gets harder to maintain once the system moves beyond what someone did into what kind of performer they are, what potential they possess, whether they are ready, where they belong, and what opportunities should follow. At that point, the abstraction no longer summarizes the work. It begins to govern the worker.
-
 I know the comparison sounds too tidy. A product review and a talent review are not the same thing. A toaster does not have rent, health insurance, a professional identity, or a quiet fear of becoming difficult to explain in a meeting.
 
-Still, the machinery was familiar enough that I could not unsee it. Product reviews compress experience into stars. Talent reviews compress people into rubrics. In both cases, something messy gets trimmed until it can travel. Now this person can be compared with that person. That is where the resemblance stops being enough.
+Still, the machinery was familiar enough that I could not unsee it. Product reviews compress experience into stars. Talent reviews compress people into rubrics. In both cases, something messy gets trimmed until it can travel. Now this person can be compared with that person. But that is where the resemblance stops being enough.
+
+The institution might object that it is not evaluating the person, only the performance. However, that distinction gets harder to maintain once the system moves beyond what someone did into what kind of performer they are, what potential they possess, whether they are ready, where they belong, and what opportunities should follow. At that point, the abstraction no longer summarizes the work. It begins to govern the worker.
 
 A customer rating a product is participating in an honestly asymmetrical relationship. The customer bought a thing. They are allowed to be narrow. They are allowed to say, “Two stars. Door feels cheap,” without appending a paragraph acknowledging the complexity of injection molding, hinge suppliers, cost targets, and the spiritual condition of the project team.
 
