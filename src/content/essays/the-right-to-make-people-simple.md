@@ -48,7 +48,7 @@ A product has to work without the footnotes.
 
 Still, the footnotes exist.
 
-There is always more behind the object than the object can carry. The feature that survived three redesigns. The feature that did not survive at all. The material that changed because the better one was too expensive, too fragile, too late, or too unavailable. The safety requirement no one will ever thank you for because its success looks exactly like nothing happening.
+There is always more behind the object than the object can carry: The feature that survived three redesigns. The feature that did not survive at all. The material that changed because the better one was too expensive, too fragile, too late, or too unavailable. The safety requirement no one will ever thank you for because its success looks exactly like nothing happening.
 
 When you help build products, you learn that the shipped thing is not the dream. It is what survived. And for a while, I thought that was why reviews hurt. Years of effort disappeared into a rating. The people disappeared behind the product. Context collapsed so comparison could happen.
 
@@ -72,7 +72,7 @@ So when someone says the product did not work for them, the professional part of
 
 * I was not cared for.
 
-That is not what most reviewers mean. They are not writing moral philosophy in the “Verified Purchase” review field. They are tired, disappointed, annoyed, pleased, or simply trying to help the next person avoid a mistake. They are doing exactly what the review system asks them to do: compress.
+That is not what most reviewers mean. They are not writing moral philosophy. They are tired, disappointed, annoyed, pleased, or simply trying to help the next person avoid a mistake. They are doing exactly what the review system asks them to do: compress.
 
 Still, if the work of making was an attempt to care in advance, then disappointment can feel like evidence that the care did not make it through. That was the part I could not fully name in the LinkedIn post.
 
