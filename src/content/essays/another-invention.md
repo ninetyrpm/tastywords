@@ -7,7 +7,7 @@ subtitle: When a design becomes the way things are
 eyebrow: Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
-status: published
+status: draft
 publishedDate: 2026-08-21
 ---
 
