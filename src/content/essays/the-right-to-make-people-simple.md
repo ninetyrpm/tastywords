@@ -108,7 +108,7 @@ A few winters ago, I flew across the country and drove through a whiteout blizza
 
 Nothing about that trip appears in a rubric. It isn't a metric. It isn't even really an accomplishment in the language performance reviews want. There's no line item for "prevented a slow-motion collapse of trust by being willing to drive four hours in a storm." When review season came, I attempted to capture its significance, but a character count made it sound more like a résumé bullet: "managed key partner relationship through proactive engagement."
 
-Anyone who has participated in a formal self-review knows the weirdness of this ritual. You are asked to narrate your own year in the language the institution can process. You do not simply get compressed. You're recruited to do the compressing yourself. You take the invisible mentoring, the mistake caught before anyone noticed, the second shift of late-night calls with a manufacturer nine time zones away, and you convert it into competencies and impact statements, because that's the only shape the form can hold.
+Anyone who has participated in a formal self-review knows the weirdness of this ritual. You are asked to narrate your own year in the language the institution can process. **You do not simply get compressed. You're recruited to do the compressing yourself.** You take the invisible mentoring, the mistake caught before anyone noticed, the second shift of late-night calls with a manufacturer nine time zones away, and you convert it into competencies and impact statements, because that's the only shape the form can hold.
 
 Naturally, the self-review process is labeled as reflection. Sometimes that is even true. Feedback can be useful. Taking stock of a year can be valuable. There are managers who care deeply, teams that handle this thoughtfully, and systems that are less insulting than others. I am not arguing for a workplace governed entirely by vibes, memory, and whoever talks the most in meetings. That way lies its own very special circle of hell.
 
@@ -142,7 +142,9 @@ Context is not decorative. It is not a sentimental add-on to the real informatio
 
 This is the part the institution has little incentive to examine honestly. Once you admit that the abstraction was created by removing context, you also have to admit that the rating is not neutral. It is not the person in purified form. It is the person after the inconvenient parts have been stripped away. It is a version of them made useful for comparison, allocation, and control.
 
-That is why the problem persists. Not because nobody has noticed that annual reviews are awkward, reductive, demoralizing, and occasionally about as developmentally rich as a dentist asking whether you floss. The jokes are too easy because the ritual is too familiar. It persists because compressed people are easier to compare, rank, reward, deny, move, and explain away. A fully contextual person is harder. That difficulty is not a defect. It is the beginning of respect.
+That is why the problem persists. Not because nobody has noticed that annual reviews are awkward, reductive, demoralizing, and occasionally about as developmentally rich as a dentist asking whether you floss. The jokes are too easy because the ritual is too familiar. It persists because compressed people are easier to compare, rank, reward, deny, move, and explain away. A fully contextual person is harder.
+
+> That difficulty is not a defect. It is the beginning of respect.
 
 So when corporations describe these systems as necessary, we should listen carefully for what kind of necessity they mean. Necessary for whom? Necessary for what? Necessary because no better arrangement is imaginable, or because the institution built itself at a scale where human context became administratively inconvenient?
 
@@ -154,7 +156,11 @@ None of this means abstraction is inherently evil. We can't function without it.
 
 I don't think this makes anyone a villain, and I'd be suspicious of an essay that needed one. The manager delivering a rating she knows is inadequate isn't the problem. The employee writing about themselves in the third person isn't the problem. Even the executive who designed the process probably believes, most days, that it's the fairest option available. The dishonesty isn't concentrated in a person. It's distributed across a system that lets everyone inside it act reasonably while the aggregate does something none of them would defend if you asked, in a hallway, without the form in front of them.
 
-That's what makes it a choice harm rather than an accident: not that someone wants it this way, but that no one has to want it this way for it to keep happening. A product may have to work without the footnotes. A person shouldn't have to. The maker-user asymmetry is harsh but honest — the maker cares for a stranger through an object, and the stranger is free to judge the object without caring back. The employee-corporation asymmetry borrows that honesty without earning it: it asks the employee to care as if inside a relationship, then reserves the right to evaluate them as if outside one.
+That's what makes it a choice harm rather than an accident: not that someone wants it this way, but that no one has to want it this way for it to keep happening.
+
+> A product may have to work without the footnotes. A person shouldn't have to.
+
+The maker-user asymmetry is harsh but honest — the maker cares for a stranger through an object, and the stranger is free to judge the object without caring back. The employee-corporation asymmetry borrows that honesty without earning it: it asks the employee to care as if inside a relationship, then reserves the right to evaluate them as if outside one.
 
 I can't offer the alternative system that balances fairness and context perfectly, and I'd be suspicious of anyone who claims they can. But the absence of a perfect answer isn't a reason to call the current one neutral. That's one of institutional power's oldest tricks — convert a moral problem into an administrative difficulty, then declare it too complicated to challenge.
 
