@@ -118,7 +118,7 @@ The polite horror of it is that everyone can be acting in good faith. Your manag
 
 Employers usually defend their process as fairness, consistency, calibration, rigor, or maturity. The implication is that relationship is nice but suspect, while abstraction is serious and neutral. A manager’s direct knowledge is bias. A rubric is objectivity. A conversation is anecdote. A rating is data.
 
-This is a very convenient belief for institutions that have made themselves too large to understand people except through summaries. The corporation first creates the conditions under which human context becomes administratively inconvenient, then calls its removal necessary. That is not neutrality. That is architecture pretending to be weather.
+This is a very convenient belief for institutions that have made themselves too large to understand people except through summaries.
 
 ---
 
