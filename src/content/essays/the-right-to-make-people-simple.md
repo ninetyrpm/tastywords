@@ -22,7 +22,7 @@ Not a catastrophic review. Not a review so unfair it deserved to be printed out 
 
 * Three stars. Wouldn’t buy again.
 
-A few sentences. Maybe one complaint, maybe a little praise offered in the tone of someone leaving a tip on the counter before deciding never to return. Nothing dramatic enough to justify a reaction, which is often exactly the kind of thing that produces one.
+A few sentences. Maybe one complaint. Maybe a little praise offered in the tone of someone leaving a tip on the counter before deciding never to return. Nothing dramatic enough to justify a reaction, which is often exactly the kind of thing that produces one.
 
 At the time, I thought what bothered me was compression. A product review takes a lived experience and turns it into something strangers find meaningful. A person buys something, uses it in a particular home, under particular expectations, with a particular level of patience, skill, prior experience, price sensitivity, mood, and tolerance for reading instructions written by someone who lost a fight with legal. Then the platform asks for all of that to become a star rating.
 
