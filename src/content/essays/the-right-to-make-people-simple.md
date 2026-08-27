@@ -156,7 +156,7 @@ None of this means abstraction is inherently evil. We can't function without it.
 
 I don't think this makes anyone a villain, and I'd be suspicious of an essay that needed one. The manager delivering a rating she knows is inadequate isn't the problem. The employee writing about themselves in the third person isn't the problem. Even the executive who designed the process probably believes, most days, that it's the fairest option available. The dishonesty isn't concentrated in a person. It's distributed across a system that lets everyone inside it act reasonably while the aggregate does something none of them would defend if you asked, in a hallway, without the form in front of them.
 
-That's what makes it a choice harm rather than an accident: not that someone wants it this way, but that no one has to want it this way for it to keep happening.
+That's what makes it a choice rather than an accident: not that someone wants it this way, but that no one has to want it this way for it to keep happening.
 
 > A product may have to work without the footnotes. A person shouldn't have to.
 
