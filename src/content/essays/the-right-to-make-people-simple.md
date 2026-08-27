@@ -162,7 +162,7 @@ That's what makes it a choice rather than an accident: not that someone wants it
 
 The maker-user asymmetry is harsh but honest — the maker cares for a stranger through an object, and the stranger is free to judge the object without caring back. The employee-corporation asymmetry borrows that honesty without earning it: it asks the employee to care as if inside a relationship, then reserves the right to evaluate them as if outside one.
 
-I can't offer the alternative system that balances fairness and context perfectly, and I'd be suspicious of anyone who claims they can. But the absence of a perfect answer isn't a reason to call the current one neutral. That's one of institutional power's oldest tricks — convert a moral problem into an administrative difficulty, then declare it too complicated to challenge.
+I can't offer the alternative system that balances fairness and context perfectly, and I'd likely ignore anyone who claims they can. But the absence of a perfect answer isn't a reason to call the current one neutral. That's one of institutional power's oldest tricks — convert a moral problem into an administrative difficulty, then declare it too complicated to challenge.
 
 Call it a betrayal or don't; the word matters less than the habit underneath it. The quiet, repeatable choice to ask for more than a system intends to give back, made easier every cycle by a form that was never going to be asked to answer for it. The remaining question isn't whether a perfect alternative exists. It's how long we keep participating politely in a ritual that makes people smaller for the convenience of an institution that has forgotten it's the one doing the shrinking.
 
