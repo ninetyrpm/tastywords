@@ -52,7 +52,11 @@ I began to evaluate places partly by bicycle. This is not a particularly rigorou
 
 The bicycle changed the geometry of the place. A car gave me much greater range, but it encouraged me to experience the world as a collection of destinations separated by space worth traversing as efficiently as possible. On a bicycle, the space between destinations became inhabitable. I noticed the alley, the strange building, the shortcut, the business I had never seen before. I could change direction because something looked interesting. Curiosity became cheap.
 
-That changed how I understood the apartment too. It contained less private territory than the detached house, but my life no longer had to fit entirely inside it. Space and access were not the same thing. A large house could contain nearly everything I owned while leaving almost everything I wanted to do several miles away. A smaller home could feel strangely expansive if the world began just outside the door.
+That changed how I understood the apartment too. It contained less private territory than the detached house, but my life no longer had to fit entirely inside it.
+
+> Space and access are not the same thing.
+
+A large house could contain nearly everything I owned while leaving almost everything I wanted to do several miles away. A smaller home could feel strangely expansive if the world began just outside the door.
 
 Eventually, of course, we moved back into another detached house in Carmel. Once you have spent enough of your life understanding bigger as better, the attractions remain easy to measure. More bedrooms. More storage. More separation. The advantages of proximity are harder to put into a listing.
 
@@ -104,7 +108,7 @@ And yet I found myself more willing to do thankless work there than I ever had i
 
 The distance between effort and consequence is short too. If I build a tool that helps my team, I can watch them use it. If I help move a product forward, I know the people whose problem it solves. If something in the building needs doing and I do it, the result usually does not disappear upward into an abstraction called organizational performance.
 
-The work feels less like contribution to a system and more like participation in a place.
+> The work feels less like contribution to a system and more like participation in a place.
 
 That distinction changed how I interpreted my earlier career. The traits that made me troublesome in one environment did not disappear when I arrived at FirstBuild. I did not finally become punctual, deferential, narrowly specialized or especially interested in staying inside my lane. I still had to mature. I still had to learn when resistance was principled and when it was simply resistance. But some of those same traits became useful.
 
@@ -148,7 +152,7 @@ The dominant arrangement gets another advantage too: alternatives can be threate
 
 A place like FirstBuild does not have to defeat a conventional corporation. It only has to survive long enough to make certain assumptions look optional. If a tiny team can develop products without all the expected boundaries, then some of those boundaries become questions rather than laws. If people can contribute outside the categories assigned to them, then the categories have to defend themselves.
 
-Systems are rarely enthusiastic about being converted from nature into choices.
+> Systems are rarely enthusiastic about being converted from nature into choices.
 
 So alternatives get pressured to become more legible. More professional. More governable. More measurable. Better aligned. Better controlled. The language is rarely sinister because many of the individual requests are reasonable. Some are necessary. FirstBuild should have accountability. It should manage risk. It should know where money goes. It should not rely indefinitely on heroic people covering invisible gaps.
 
@@ -156,9 +160,7 @@ But I have watched enough institutions to understand why I become nervous when e
 
 A city that eliminates every inconvenience of density eventually starts eliminating density. An organization that eliminates every inconvenience of permeability eventually starts eliminating permeability.
 
-This is not an argument that everyone should choose the same alternative I did. Plenty of people genuinely prefer more private space, quieter neighborhoods, clearer responsibilities, predictable advancement and defined boundaries around what they owe an employer. Cities require negotiation. Small organizations can be exhausting. Ambiguity is not equally energizing to everyone.
-
-But I no longer believe our choices take place on neutral ground.
+This is not an argument that everyone should choose the same alternative I did. Plenty of people genuinely prefer more private space, quieter neighborhoods, clearer responsibilities, predictable advancement and defined boundaries around what they owe an employer. Cities require negotiation. Small organizations can be exhausting. Ambiguity is not equally energizing to everyone, but I no longer believe our choices take place on neutral ground.
 
 For much of my life, I did not reject urban living after carefully comparing it with suburban living. I barely understood the alternative. The same is true of work. I knew what a successful career was supposed to look like long before I knew there were organizations where the ladder itself might be the wrong unit of measurement.
 
@@ -190,17 +192,13 @@ The small house gave me more neighborhood. The bicycle gave me more city. The sm
 
 None of those environments is a utopia. The city can be dirty, unequal, bureaucratic and exhausting. The bicycle is vulnerable and occasionally miserable. FirstBuild can be chaotic, under-resourced, inconsistent and maddening.
 
-But the underlying arrangement permits a kind of life the alternatives often suppress.
+But the underlying arrangement permits a kind of life the alternatives often suppress. That is what makes losing it frightening.
 
-That is what makes losing it frightening.
-
-I have literally wondered what it would take to buy FirstBuild. The thought is ridiculous for several reasons, not least of which is that buying an organization in order to preserve everyone else’s freedom contains exactly the kind of contradiction that should make a person nervous.
-
-But I understand the impulse.
+I have literally wondered what it would take to buy FirstBuild. The thought is ridiculous for several reasons, not least of which is that buying an organization in order to preserve everyone else’s freedom contains exactly the kind of contradiction that should make a person nervous, but I understand the impulse.
 
 When we were displaced from Deer Park, I eventually solved the problem by buying the little house in Clifton. Ownership gave me some durable claim to the environment I had finally learned I wanted.
 
-There is no comparable deed for a way of working.
+> There is no comparable deed for a way of working.
 
 Leadership can change. Strategy can change. The parent company can change. The culture can slowly become something else. I can leave voluntarily or be asked to leave involuntarily. Even if FirstBuild survives, the particular conditions that taught me what I value may not.
 
