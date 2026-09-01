@@ -8,7 +8,7 @@ subtitle: On product reviews and the hidden costs of compression
 eyebrow: Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
-status: published
+status: draft
 publishedDate: 2026-08-23
 ---
 
