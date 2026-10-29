@@ -7,8 +7,8 @@ subtitle: "On stereotypes, self-consciousness, and the freedom to look ridiculou
 eyebrow: Essay
 signature: Ken
 dateline: "Louisville, Kentucky · August 2026"
-status: draft
-publishedDate: ''
+status: published
+publishedDate: 2026-10-29
 ---
 
 I recently came across a Reddit thread in r/louisville about some local cycling personalities publicly tearing each other apart over what appeared to be the usual combination of egos, social media drama, and hurt feelings.
